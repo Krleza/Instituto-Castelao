@@ -17,7 +17,7 @@
 				Instituto Castelao<br />Galicia
 			</h1>
 			<h2 class="subtitle">
-				Nuestras instalaciones en Santa Cristina de Oleiros.<br />
+				Nuestras instalaciones en Santa Cristina de Oleiros,<br />
 				en la provincia de A coruña
 			</h2>
 		</div>
