@@ -14,16 +14,16 @@
 						<div class="gallery_box">
 							<ul class="image_carousel">
 								<li class="current_slide">
-									<img src="images/responsive/520x240/centro_de_drogadiccion.jpg" alt=""/>
+									<img src="images/responsive/520x240/centro_de_drogadiccion.jpg" alt="centro de adicciones"/>
 								</li>
 			
 							</ul>
 						</div>
-						<!--<a class="post_image" href="?page=post" title="Lorem ipsum dolor sit amat velum">
+						<!--<a class="post_image" href="post" title="Lorem ipsum dolor sit amat velum">
 							<img src="images/responsive/520x240/terapia_drogadiccion.jpg" alt="" />
 						</a>-->
 						<h2>
-                                                    Lograr la recuperacion del paciente
+                                                    Lograr la recuperación del paciente
 						</h2>
 						<p>
                                                     A partir del diagn&oacute;stico del grado de dependencia del paciente y de su estado de salud los objetivos del tratamiento son:
@@ -37,7 +37,7 @@
                                                     de recuperaci&oacute;n, llev&aacute;ndoles a conciliar de nuevo un entorno natural y positivo con el paciente.
                                                 </p><p>
                                                     Una vez completado el tratamiento, el paciente ha aprendido a llevar una vida sin consumo 
-                                                    y es capaz de desarrollarse en su entorno social y familiar de una forma mucho mas gratificante.
+                                                    y es capaz de desarrollarse en su entorno social y familiar de una forma mucho más gratificante.
                                                 </p>
 									
 					</div>
@@ -69,16 +69,16 @@
 				<div class="scrolling_list_wrapper">
 					<ul class="scrolling_list most_commented">
 						<li class="icon_small_arrow right_black">
-							<a href="?page=tratamiento" class="clearfix">
+							<a href="tratamiento" class="clearfix">
 								<span class="left">
-								El tratamiento Hipócrates	
+								El tratamiento Castelao	
 								</span>
 							
 							</a>
 							<abbr title="" class="timeago"></abbr>
 						</li>
 						<li class="icon_small_arrow right_black">
-							<a href="?page=fases" class="clearfix">
+							<a href="fases" class="clearfix">
 								<span class="left">
 									Las fases del tratamiento
 								</span>
@@ -87,7 +87,7 @@
 							<abbr title="" class="timeago"></abbr>
 						</li>
 						<li class="icon_small_arrow right_black">
-							<a href="?page=abordaje" class="clearfix">
+							<a href="abordaje" class="clearfix">
 								<span class="left">
 									El abordaje terapeútico
 								</span>
@@ -95,7 +95,7 @@
                             <abbr title="" class="timeago"></abbr>
 						</li>
 						<li class="icon_small_arrow right_black">
-							<a href="?page=familiares" class="clearfix">
+							<a href="familiares" class="clearfix">
 								<span class="left">
 									Familiares y pareja
 								</span>
@@ -129,7 +129,7 @@
 					<li class="clearfix">
 						<span class="social_icon form"></span>
 						<p class="value">
-							<a href="?page=contact" title="Contact form">Formulario de contacto</a>
+							<a href="contact" title="Contact form">Formulario de contacto</a>
 						</p>
 					</li>
 				</ul>

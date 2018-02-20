@@ -21,7 +21,13 @@ function onAfterSlide(prevSlide, currentSlide)
 	$("#slider_navigation_" + expando + " .slider_control").addClass("inactive");
 	$("#" + $(currentSlide).attr("id") + "_content").fadeIn(200, function(){
 		$("#slider_navigation_" + expando + " .slider_control").removeClass("inactive");
-	});	
+	});
+
+	$(".slider").trigger("configuration", {
+	auto: {
+		pauseDuration: 10000
+	}
+});	
 }
 function onBeforeSlide(prevSlide, currentSlide)
 {
@@ -65,7 +71,7 @@ jQuery(document).ready(function($){
 			duration: 2000
 		},
 		auto: {
-			play: true,
+			play: false,
 			pauseDuration: 5000,
 			onAfter: onAfterSlide,
 			onBefore: onBeforeSlide,
@@ -406,9 +412,9 @@ jQuery(document).ready(function($){
 	if($("#map").length)
 	{
 		//google map
-		var coordinate = new google.maps.LatLng(43.3386781,-8.375018599999999);
+		var coordinate = new google.maps.LatLng(40.1514805,-3.9257808);
 		var mapOptions = {
-			zoom: 12,
+			zoom: 5,
 			center: coordinate,
 			mapTypeId: google.maps.MapTypeId.ROADMAP,
 			streetViewControl: false,
@@ -419,7 +425,22 @@ jQuery(document).ready(function($){
 		new google.maps.Marker({
 			position: new google.maps.LatLng(43.3386781,-8.375018599999999),
 			map: map,
-			icon: new google.maps.MarkerImage("images/map_pointer.png", new google.maps.Size(38, 45), null, new google.maps.Point(18, 44))
+			icon: new google.maps.MarkerImage("images/map_pointer.png", new google.maps.Size(30, 36), null, new google.maps.Point(18, 44))
+		});
+		new google.maps.Marker({
+			position: new google.maps.LatLng(36.7320413,-4.1753628),
+			map: map,
+			icon: new google.maps.MarkerImage("images/map_pointer.png", new google.maps.Size(30, 36), null, new google.maps.Point(18, 44))
+		});
+        new google.maps.Marker({
+			position: new google.maps.LatLng(40.443529, -3.812636),
+			map: map,
+			icon: new google.maps.MarkerImage("images/map_pointer.png", new google.maps.Size(30, 36), null, new google.maps.Point(18, 44))
+		});
+        new google.maps.Marker({
+			position: new google.maps.LatLng(38.343700, -0.491986),
+			map: map,
+			icon: new google.maps.MarkerImage("images/map_pointer.png", new google.maps.Size(30, 36), null, new google.maps.Point(18, 44))
 		});
 	}
 	
@@ -544,7 +565,7 @@ jQuery(document).ready(function($){
 			type: "post",
 			dataType: "json",
 			success: function(json){
-				$("#contact_form [name='submit'], #contact_form [name='first_name'], #contact_form [name='last_name'], #contact_form [name='email'], #contact_form [name='message']").qtip('destroy');
+				$("#contact_form [name='submit'], #contact_form [name='first_name'], #contact_form [name='email'], #contact_form [name='message']").qtip('destroy');
 				if(typeof(json.isOk)!="undefined" && json.isOk)
 				{
 					if(typeof(json.submit_message)!="undefined" && json.submit_message!="")
@@ -563,8 +584,8 @@ jQuery(document).ready(function($){
 							}
 						}).qtip('show');
 						$(".contact_form")[0].reset();
-						$(".contact_form [name='department']").val("");
-						$(".contact_form .tabs_box_navigation_selected>span").text("Select department");
+						$(".contact_form [name='motivo']").val("");
+						$(".contact_form .tabs_box_navigation_selected>span").text("Indiquenos el motivo de su consulta");
 					}
 				}
 				else
@@ -587,29 +608,13 @@ jQuery(document).ready(function($){
 					}
 					if(typeof(json.error_first_name)!="undefined" && json.error_first_name!="")
 					{
-						$("#contact_form [name='first_name']").qtip(
+						$("#contact_form [name='nombre']").qtip(
 						{
 							style: {
 								classes: 'ui-tooltip-error'
 							},
 							content: { 
 								text: json.error_first_name 
-							},
-							position: { 
-								my: "bottom center",
-								at: "top center" 
-							}
-						}).qtip('show');
-					}
-					if(typeof(json.error_last_name)!="undefined" && json.error_last_name!="")
-					{
-						$("#contact_form [name='last_name']").qtip(
-						{
-							style: {
-								classes: 'ui-tooltip-error'
-							},
-							content: { 
-								text: json.error_last_name 
 							},
 							position: { 
 								my: "bottom center",
@@ -635,7 +640,7 @@ jQuery(document).ready(function($){
 					}
 					if(typeof(json.error_message)!="undefined" && json.error_message!="")
 					{
-						$("#contact_form [name='message']").qtip(
+						$("#contact_form [name='mensaje']").qtip(
 						{
 							style: {
 								classes: 'ui-tooltip-error'

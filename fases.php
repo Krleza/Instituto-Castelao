@@ -14,40 +14,41 @@
 						<div class="gallery_box">
 							<ul class="image_carousel">
 								<li class="current_slide">
-									<img src="images/responsive/520x240/dejar_de_beber.jpg" alt=""/>
+									<img src="images/responsive/520x240/dejar_de_beber.jpg" alt="dejar de beber"/>
 								</li>
 			
 							</ul>
 						</div>
-						<!--<a class="post_image" href="?page=post" title="Lorem ipsum dolor sit amat velum">
-							<img src="images/responsive/520x240/terapia_drogadiccion.jpg" alt="" />
-						</a>-->
+						
 						<h2>
-                                                    El tratamiento hipocrates se divide en cuatro fases:	
+                           El tratamiento Castelao se divide en cuatro fases:	
 						</h2>
                                                 <h3>Desintoxicación</h3>
-                                                <br>
+                                                
 						<p>                                                    
                                                     La desintoxicación es el proceso por el cual el paciente deja de consumir y necesitar las sustancias a las que es adicto. Este proceso se realiza bajo una estrecha supervisión médica y con la ayuda de medicación de apoyo para minimizar la aparición de síndromes de abstinencia, tratando que la recuperación sea entendida como una experiencia gratificante desde el primer momento. 
                                                 </p>
                                                 <h3>Deshabituación</h3>
-                                                <br>
+                                                
                                                 <p>
                                                     
                                                     La enfermedad de adicción altera enormemente los hábitos y actitudes de la persona que la padece. La deshabituación es el proceso de identificación y sustitución de los hábitos y actitudes alterados, por otros que mejoran la calidad de vida del paciente y favorezcan su integración en el entorno familiar, laboral y social.
                                                 </p>
                                                 <h3>Rehabilitación</h3>
-                                                <br>
+                                               
 						<p>
                                                     
                                                     Durante la rehabilitación el paciente recupera las habilidades perdidas o no desarrolladas durante la enfermedad mediante terapia grupal e individual, dirigida por terapeutas. La terapia se complementa con otras actividades cuyos propósitos son la reducción de ansiedad, el control de impulsos y la mejora de las habilidades personales y sociales del paciente. 
                                                 </p>
                                                 <h3>Reinserción</h3>
-                                                <br>
+                                               
 						<p>
                                                     
                                                     Durante el tratamiento y muy especialmente en las últimas semanas, se prepara minuciosamente la vuelta a su entorno familiar y social. La reinserción del paciente en su entorno y el desarrollo normalizado de su vida es el objetivo final de todo el proceso. El seguimiento médico y terapéutico del paciente continúa tras la salida del centro, asesorando y guiando el proceso de reintegración.
                                                 </p>
+                        <a class="enlace" href="test" title="test" ><p class="enlatext">Test de síntomas de adicción</p></a>
+                        
+				<a class="enlace" href="diagnostico" title="¿Cómo se diagnostica?" ><p class="enlatext">¿Cómo se diagnostica?</p></a>	
 									
 					</div>
 				</li>
@@ -78,16 +79,16 @@
 				<div class="scrolling_list_wrapper">
 					<ul class="scrolling_list most_commented">
 						<li class="icon_small_arrow right_black">
-							<a href="?page=tratamiento" class="clearfix">
+							<a href="tratamiento" class="clearfix">
 								<span class="left">
-								El tratamiento Hipócrates	
+								El tratamiento Castelao	
 								</span>
 							
 							</a>
 							<abbr title="" class="timeago"></abbr>
 						</li>
 						<li class="icon_small_arrow right_black">
-							<a href="?page=objetivos" class="clearfix">
+							<a href="objetivos" class="clearfix">
 								<span class="left">
 									Los objetivos del tratamiento
 								</span>
@@ -96,7 +97,7 @@
 							<abbr title="" class="timeago"></abbr>
 						</li>
 						<li class="icon_small_arrow right_black">
-							<a href="?page=abordaje" class="clearfix">
+							<a href="abordaje" class="clearfix">
 								<span class="left">
 									El abordaje terapeútico
 								</span>
@@ -104,7 +105,7 @@
                             <abbr title="" class="timeago"></abbr>
 						</li>
 						<li class="icon_small_arrow right_black">
-							<a href="?page=familiares" class="clearfix">
+							<a href="familiares" class="clearfix">
 								<span class="left">
 									Familiares y pareja
 								</span>
@@ -138,11 +139,15 @@
 					<li class="clearfix">
 						<span class="social_icon form"></span>
 						<p class="value">
-							<a href="?page=contact" title="Contact form">Formulario de contacto</a>
+							<a href="contact" title="Contact form">Formulario de contacto</a>
 						</p>
 					</li>
 				</ul>
 			</div>
 		</div>
 	</div>
+</div>
+<div class="fijado min_show animated_element animation-slideUp delay-2600">
+    <a class="" onclick="goog_report_conversion('tel:900-505-100')" href="tel:900505100" ><p>900 505 100<br><span>1ª consulta gratuita</span></p></a>
+    
 </div>

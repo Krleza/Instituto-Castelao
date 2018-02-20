@@ -2,7 +2,7 @@
 	<div class="page_layout page_margin_top clearfix">
 		<div class="page_header clearfix">
 			<div class="page_header_left">
-				<h1 class="page_title">La enfermedad de La adicción</h1>
+				<h1 class="page_title">La enfermedad de la adicción</h1>
 				
 			</div>
 		</div>
@@ -14,14 +14,12 @@
 						<div class="gallery_box">
 							<ul class="image_carousel">
 								<li class="current_slide">
-									<img src="images/responsive/520x240/problemas_de_drogas.jpg" alt=""/>
+									<img src="images/responsive/enfermedad-adiccion.jpg" alt="Centros de desintoxicación"/>
 								</li>
 			
 							</ul>
 						</div>
-						<!--<a class="post_image" href="?page=post" title="Lorem ipsum dolor sit amat velum">
-							<img src="images/responsive/520x240/terapia_drogadiccion.jpg" alt="" />
-						</a>-->
+					
 						<h2>
                                                     La enfermedad	
 						</h2>
@@ -33,7 +31,9 @@
                                                 <p>
                                                         Aceptar la adicción como enfermedad es el primer paso para aceptar la posibilidad de la recuperación, implica comenzar un proceso cuyo final es la recuperación total del paciente.
                                                 </p>
-									
+					 <a class="enlace" href="test" title="test" ><p class="enlatext">Test de síntomas de adicción</p></a>
+                        
+				<a class="enlace" href="diagnostico" title="¿Cómo se diagnostica?" ><p class="enlatext">¿Cómo se diagnostica?</p></a>					
 					</div>
 				</li>
 			</ul>
@@ -62,38 +62,38 @@
 				<div class="scrolling_list_wrapper">
 					<ul class="scrolling_list most_commented">
 						<li class="icon_small_arrow right_black">
-							<a href="?page=adiccion" class="clearfix">
+							<a href="adiccion" class="clearfix">
 								<span class="left">
 								¿Qué es una adicción?	
 								</span>
 							
 							</a>
-							<abbr title="" class="timeago"></abbr>
+							<abbr title="diagnostico adicion" class="timeago"></abbr>
 						</li>
 						<li class="icon_small_arrow right_black">
-							<a href="?page=diagnostico" class="clearfix">
+							<a href="diagnostico" class="clearfix">
 								<span class="left">
 									¿Cómo se diagnostica?
 								</span>
 								
 							</a>
-							<abbr title="" class="timeago"></abbr>
+							<abbr title="adicciones andalucia" class="timeago"></abbr>
 						</li>
 						<li class="icon_small_arrow right_black">
-							<a href="?page=voluntad" class="clearfix">
+							<a href="voluntad" class="clearfix">
 								<span class="left">
-									Cuando la voluntad no es sufiente
+									Cuando la voluntad no es suficiente
 								</span>
 							</a>
-                            <abbr title="" class="timeago"></abbr>
+                            <abbr title="centro de drogodependencia" class="timeago"></abbr>
 						</li>
 						<li class="icon_small_arrow right_black">
-							<a href="?page=ayuda" class="clearfix">
+							<a href="ayuda" class="clearfix">
 								<span class="left">
 									La ayuda necesaria
 								</span>
             					</a>
-							<abbr title="" class="timeago"></abbr>
+							<abbr title="terapia adicciones" class="timeago"></abbr>
 						</li>
 					</ul>
 				</div>
@@ -122,11 +122,15 @@
 					<li class="clearfix">
 						<span class="social_icon form"></span>
 						<p class="value">
-							<a href="?page=contact" title="Contact form">Formulario de contacto</a>
+							<a href="contact" title="Formulario de contacto">Formulario de contacto</a>
 						</p>
 					</li>
 				</ul>
 			</div>
 		</div>
 	</div>
+</div>
+<div class="fijado min_show animated_element animation-slideUp delay-2600">
+    <a class="" onclick="goog_report_conversion('tel:900-505-100')" href="tel:900505100" ><p>900 505 100<br><span>1ª consulta gratuita</span></p></a>
+    
 </div>

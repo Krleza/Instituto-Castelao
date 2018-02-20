@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /font/
+Disallow: /layout_picker/
+Disallow: /phpmailer/
+Disallow: /contact_form/
+Disallow: /libraries/
+Disallow: /font
+Disallow: /layout_picker
+Disallow: /phpmailer
+Disallow: /contact_form
+Disallow: /libraries

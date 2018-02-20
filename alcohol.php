@@ -16,20 +16,20 @@
 						<div class="gallery_box">
 							<ul class="image_carousel">
 								<li class="current_slide">
-									<img src="images/responsive/520x240/salir_del_alcohol.jpg" alt=""/>
+									<img src="images/responsive/520x240/salir_del_alcohol.jpg" alt="tratamiento del alcoholismo"/>
 								</li>
 			
 							</ul>
 						</div>
-						<!--<a class="post_image" href="?page=post" title="Lorem ipsum dolor sit amat velum">
-							<img src="images/responsive/520x240/terapia_drogadiccion.jpg" alt="" />
+						<!--<a class="post_image" href="post" title="Lorem ipsum dolor sit amat velum">
+							<img src="images/responsive/520x240/terapia_drogadiccion.jpg" alt="tratameinto del alcoholismo" />
 						</a>-->
 						<h2>
                                                     La adicci&oacute;n al alcohol
 						</h2>
                                                 
                                                 <p>
-                                                    El alcoholismo es una dolencia provocada por la enfermedad de la adicción, podemos reconocer la enfermedad en los siguientes síntomas:
+                                                    El alcoholismo es una dolencia provocada por la enfermedad de la adicción. Podemos reconocer la enfermedad en los siguientes síntomas:
                                                 </p>
                                                 <ul class="list clearfix">
                                                  
@@ -62,7 +62,7 @@
 
                                                 <h3>
                                                     ¿CÓMO SE DETECTA EL ALCOHOLISMO? 
-                                                </h3><br>
+                                                </h3>
                                                 <p>
                                                 El alcohol es una droga legal que ha consumido en algún momento el 98% de la población mayor de edad, no obstante el enfermo alcohólico pronto presentará problemas con su consumo, el primer síntoma de alcoholismo es el consumo excesivo en situaciones donde se consume alcohol, reuniones o fiestas, luego, gradualmente el consumo ira introduciéndose en situaciones fuera de contexto y se producirán en el enfermo adicto alteraciones de conducta y carácter, abandono de hábitos y responsabilidades, depresión, inactividad o conductas agresivas, el adicto dejará a un lado aficiones y reuniones donde no se consuma alcohol, familiares y amigos le harán un lado y el núcleo familiar se verá resentido por la actitud del enfermo adicto. Mentiras, resentimiento en la economía y problemas laborales afectarán al entorno más directo del alcohólico.    
                                                 </p>
@@ -77,11 +77,14 @@
                                                 </p>
                                                 <h3>
                                                     ¿CÓMO ACTUAR?
-                                                </h3><br>
+                                                </h3>
                                                 <p>
                                                     Si reconocemos estos síntomas en nosotros mismos o en una persona cercana estaremos frente a la enfermedad de la adicción, la primera medida a tomar es acudir a un centro especializado donde puedan realizar un diagnóstico profesional. En Instituto Castelao, ofrecemos asesoramiento telefónico y diagnostico gratuito. Nuestro equipo médico y terapéutico le indicara el tratamiento más adecuado a su situación y su diagnóstico personal.
                                                 </p>
 
+                        
+				<a class="enlace" href="diagnostico" title="¿Cómo se diagnostica?" ><p class="enlatext">¿Cómo se diagnostica?</p></a>	
+                           <a class="enlace" href="fases" title="Fases del tratamiento" ><p class="enlatext">Fases del tratamiento</p></a>
 									
 					</div>
 				</li>
@@ -112,7 +115,7 @@
 				<div class="scrolling_list_wrapper">
 					<ul class="scrolling_list most_commented">
 						<li class="icon_small_arrow right_black">
-							<a href="?page=adiccion" class="clearfix">
+							<a href="adiccion" class="clearfix">
 								<span class="left">
 								¿Qué es una adicción?	
 								</span>
@@ -121,7 +124,7 @@
 							<abbr title="" class="timeago"></abbr>
 						</li>
 						<li class="icon_small_arrow right_black">
-							<a href="?page=diagnostico" class="clearfix">
+							<a href="diagnostico" class="clearfix">
 								<span class="left">
 									¿Cómo se diagnostica?
 								</span>
@@ -130,7 +133,7 @@
 							<abbr title="" class="timeago"></abbr>
 						</li>
 						<li class="icon_small_arrow right_black">
-							<a href="?page=voluntad" class="clearfix">
+							<a href="voluntad" class="clearfix">
 								<span class="left">
 									Cuando la voluntad no es sufiente
 								</span>
@@ -138,7 +141,7 @@
                             <abbr title="" class="timeago"></abbr>
 						</li>
 						<li class="icon_small_arrow right_black">
-							<a href="?page=ayuda" class="clearfix">
+							<a href="ayuda" class="clearfix">
 								<span class="left">
 									La ayuda necesaria
 								</span>
@@ -172,11 +175,15 @@
 					<li class="clearfix">
 						<span class="social_icon form"></span>
 						<p class="value">
-							<a href="?page=contact" title="Contact form">Formulario de contacto</a>
+							<a href="contact" title="Contact form">Formulario de contacto</a>
 						</p>
 					</li>
 				</ul>
 			</div>
 		</div>
 	</div>
+</div>
+<div class="fijado min_show animated_element animation-slideUp delay-2600">
+    <a class="" onclick="goog_report_conversion('tel:900-505-100')" href="tel://900505100" ><p>900 505 100<br><span>Llámanos y recupera tu vida</span></p></a>
+    
 </div>

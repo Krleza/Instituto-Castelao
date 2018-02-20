@@ -16,54 +16,102 @@
 						<div class="gallery_box">
 							<ul class="image_carousel">
 								<li class="current_slide">
-									<img src="images/responsive/520x240/salir_de_la_cocaina.jpg" alt=""/>
+									<img src="images/responsive/520x240/salir_de_la_cocaina.jpg" alt="tratamiento cocaina"/>
 								</li>
 			
 							</ul>
 						</div>
-						<!--<a class="post_image" href="?page=post" title="Lorem ipsum dolor sit amat velum">
-							<img src="images/responsive/520x240/terapia_drogadiccion.jpg" alt="" />
-						</a>-->
+					
 						<h2>
-                                                    Adicción a la cocaína
-						</h2>
-						<p>La cocaína raramente es la primera sustancia que consume un adicto. Generalmente los adictos a la cocaína iniciaron el consumo con alcohol, drogas de diseño, éxtasis o cannabis. Al final se suele establecer el consumo asociado de cocaína y alcohol y, a veces, cannabis o tranquilizantes para “bajar” los efectos de la cocaína. El uso repetido de cocaína conlleva el desarrollo de tolerancia, esto es la necesidad de aumentar la dosis para conseguir el efecto deseado.</p>
-                                                <p>Al inicio del consumo el paciente sale de fiesta y puede pasarlo bien tanto si consume como si no. Al cabo de un tiempo empieza la dependencia y la situación va cambiando. La fiesta no es del todo fiesta si no hay consumo. El proceso se agrava, cada vez necesita más y más. En muchos casos el paciente empieza a consumir en solitario, en casa, el coche u otro tipo de locales.  Esta necesidad de consumir pasa por encima de cualquier consideración personal, laboral o familiar.</p>
-                                                <br>
-                                                <strong>EFECTOS TOXICOS DE  LA COCAINA</strong>
-                                                <ul class="list clearfix">
-                                                <li>Complicaciones neurológicas: convulsiones, tics, hemorragias e infartos cerebrales.</li>
-                                                <li>Alteración de las fosas nasales: congestión, úlceras y perforación del tabique nasal</li>
-                                                <li>Al principio del consumo produce una mayor excitación sexual. Al final termina provocando impotencia.</li>
-                                                <li>Episodios de ansiedad,depresión, insomnio, crisis de pánico, alteraciones de la memoria</li>
-                                                <li>Paranoias, alucinaciones, trastornos de la personalidad.</li>
-                                                <li>Complicaciones cardiovasculares: Estrechamiento de las arterias del corazón y del cerebro. En sujetos jóvenes en buen estado físico y puede provocar infarto cardíaco, alteraciones del ritmo cardíaco y muerte súbita. De hecho, la principal causa de infarto en menores de 40 años es el consumo de cocaína. También pueden provocar hipertensión y shock.</li>
-                                                <li>Parada respiratoria o edema pulmonar.</li>
-                                                <li>El consumo de cocaína durante el embarazo se asocia con la aparición de placenta previa, abortos espontáneos, retraso del crecimiento intrauterino del feto, malformaciones congénitas, o retraso psicomotor en el recién nacido.</li>
-                                                </ul>
-                                                <br>
-                                                <strong>¿COMO DETECTAR EL CONSUMO DE COCAINA</strong><strong>?</strong>
-                                                <ul class="list clearfix">
-                                                <li>Pérdida de apetito. Adelgazamiento llamativo en poco tiempo.</li>
-                                                <li>Cambios de humor importantes, oscilando entre un estado de hiperexcitación y depresión.</li>
-                                                <li>Una mayor irritabilidad o incluso con rasgos de agresividad.</li>
-                                                <li>Disminución de la capacidad de concentración.</li>
-                                                <li>Pérdida de interés por las amistades “normales” y alejamiento de los amigos no consumidores.</li>
-                                                <li>Alteraciones del horario del sueño. Dormir de día y estar despierto por la noche</li>
-                                                <li>Problemas de concentración con dificultades académicas y laborales.</li>
-                                                <li>Pérdida de empleo y dificultades económicas.</li>
-                                                <li>Gastos injustificados muy altos derivados del consumo, prostitución, juego, etc.</li>
-                                                <li>Problemas en la relación con pareja e hijos.</li>
-                                                <li>Cansancio crónico</li>
-                                                </ul>
-                                                <p>El consumo de cocaína en la mayoría de los casos se asocia al de alcohol y a veces, al de cannabis o fármacos relajantes para “bajar” la coca.</p>
-                                                <p>Con frecuencia se puede asociar con compras compulsivas, gastos excesivos sin justificar y, a veces, juego patológico.</p>
-                                                <p><strong>¿COMO ACTUAR?</strong></p>
-                                                <p>
-                                                    Cuando en una familia se sospecha que uno de sus miembros tiene problemas con la cocaína, lo urgente es conseguir un <strong>diagnóstico profesional </strong>de la situación del paciente y un tratamiento efectivo que la resuelva. En <strong>Instituto Castelao</strong>, ofrecemos el servicio de <strong>visita previa</strong>. Tras esta visita el equipo facultativo de Instituto Hipócrates recomendará lo más pertinente en cada caso y asesorará a la familia y al paciente sobre cómo actuar.
-                                                </p>
-	
-									
+							Adicción a la cocaína
+							</h2>
+							<p>
+							       No es habitual que la cocaína sea la primera sustancia consumida por un enfermo adicto, generalmente el consumo de cocaína es precedido del consumo de otras drogas como alcohol, cannabis o éxtasis. El uso de la cocaína en durante las primeras fases de la enfermedad suele ir de la mano del consumo de alcohol en entornos proclives al consumo (fiestas, discotecas, etc) pero el uso reiterado de la cocaína conlleva tolerancia, y el enfermo adicto comienza a consumir fuera de los entornos antes mencionados. Cuando el consumo se vuelve regular el adicto consumirá en el trabajo, el hogar o en eventos donde el resto de los participantes no consumen, generando conflicto y desconcierto.
+							</p>
+							<p>
+							      Cuando el adicto a la cocaína pierde el control sobre el consumo comienza la dependencia, el enfermo comienza a consumir en solitario y la necesidad de consumir se vuelve prioritaria sobre elementos básicos en la vida del adicto, como la familia o el trabajo. 
+							</p>
+							<br>
+							<strong>EFECTOS TÓXICOS DE  LA COCAÍNA</strong>
+							<ul class="list clearfix">
+							      <li>
+							            Complicaciones neurológicas: convulsiones, tics, hemorragias e infartos cerebrales.
+							      </li>
+							      <li>
+							            Alteración de las fosas nasales: congestión, úlceras y perforación del tabique nasal
+							      </li>
+							      <li>
+							            Al principio del consumo produce una mayor excitación sexual. Al final termina provocando impotencia.
+							      </li>
+							      <li>
+							            Episodios de ansiedad,depresión, insomnio, crisis de pánico, alteraciones de la memoria
+							      </li>
+							      <li>
+							            Paranoias, alucinaciones, trastornos de la personalidad.
+							      </li>
+							      <li>
+							            Complicaciones cardiovasculares: Estrechamiento de las arterias del corazón y del cerebro. En sujetos jóvenes en buen estado físico y puede provocar infarto cardíaco, alteraciones del ritmo cardíaco y muerte súbita. De hecho, la principal causa de infarto en menores de 40 años es el consumo de cocaína. También pueden provocar hipertensión y shock.
+							      </li>
+							      <li>
+							            Parada respiratoria o edema pulmonar.
+							      </li>
+							      <li>
+							            El consumo de cocaína durante el embarazo se asocia con la aparición de placenta previa, abortos espontáneos, retraso del crecimiento intrauterino del feto, malformaciones congénitas, o retraso psicomotor en el recién nacido.
+							      </li>
+							</ul>
+							<p>
+							      La adicción a la cocaína es una de las más devastadoras
+							</p>
+							<br>
+							<strong>¿COMO DETECTAR EL CONSUMO DE COCAINA</strong><strong>?</strong>
+							<ul class="list clearfix">
+							      <li>
+							            Pérdida de apetito. Adelgazamiento llamativo en poco tiempo.
+							      </li>
+							      <li>
+							            Cambios de humor importantes, oscilando entre un estado de hiperexcitación y depresión.
+							      </li>
+							      <li>
+							            Una mayor irritabilidad o incluso con rasgos de agresividad.
+							      </li>
+							      <li>
+							            Disminución de la capacidad de concentración.
+							      </li>
+							      <li>
+							            Pérdida de interés por las amistades “normales” y alejamiento de los amigos no consumidores.
+							      </li>
+							      <li>
+							            Alteraciones del horario del sueño. Dormir de día y estar despierto por la noche
+							      </li>
+							      <li>
+							            Problemas de concentración con dificultades académicas y laborales.
+							      </li>
+							      <li>
+							            Pérdida de empleo y dificultades económicas.
+							      </li>
+							      <li>
+							            Gastos injustificados muy altos derivados del consumo, prostitución, juego, etc.
+							      </li>
+							      <li>
+							            Problemas en la relación con pareja e hijos.
+							      </li>
+							      <li>
+							            Cansancio crónico
+							      </li>
+							</ul>
+							<p>
+							      El consumo de cocaína en la mayoría de los casos se asocia al de alcohol y a veces, al de cannabis o fármacos relajantes para “bajar” la coca.
+							</p>
+							<p>
+							      Con frecuencia se puede asociar con compras compulsivas, gastos excesivos sin justificar y, a veces, juego patológico.
+							</p>
+							<p><strong>¿CÓMO ACTUAR?</strong></p>
+							<p>
+							    Si reconocemos estos síntomas en nosotros mismos o en una persona cercana estaremos frente a la enfermedad de la adicción, la primera medida a tomar es acudir a un centro especializado donde puedan realizar un diagnóstico profesional. En Instituto Castelao, ofrecemos asesoramiento telefónico y diagnostico gratuito. Nuestro equipo médico y terapéutico le indicara el tratamiento más adecuado a su situación y su diagnóstico personal.
+							</p>
+								
+						<a class="enlace" href="test" title="test" ><p class="enlatext">Test de síntomas de adicción</p></a>	
+                           <a class="enlace" href="fases" title="Fases del tratamiento" ><p class="enlatext">Fases del tratamiento</p></a>			
 					</div>
 				</li>
 			</ul>
@@ -93,7 +141,7 @@
 				<div class="scrolling_list_wrapper">
 					<ul class="scrolling_list most_commented">
 						<li class="icon_small_arrow right_black">
-							<a href="?page=adiccion" class="clearfix">
+							<a href="adiccion" class="clearfix">
 								<span class="left">
 								¿Qué es una adicción?	
 								</span>
@@ -102,7 +150,7 @@
 							<abbr title="" class="timeago"></abbr>
 						</li>
 						<li class="icon_small_arrow right_black">
-							<a href="?page=diagnostico" class="clearfix">
+							<a href="diagnostico" class="clearfix">
 								<span class="left">
 									¿Cómo se diagnostica?
 								</span>
@@ -111,7 +159,7 @@
 							<abbr title="" class="timeago"></abbr>
 						</li>
 						<li class="icon_small_arrow right_black">
-							<a href="?page=voluntad" class="clearfix">
+							<a href="voluntad" class="clearfix">
 								<span class="left">
 									Cuando la voluntad no es sufiente
 								</span>
@@ -119,7 +167,7 @@
                             <abbr title="" class="timeago"></abbr>
 						</li>
 						<li class="icon_small_arrow right_black">
-							<a href="?page=ayuda" class="clearfix">
+							<a href="ayuda" class="clearfix">
 								<span class="left">
 									La ayuda necesaria
 								</span>
@@ -153,11 +201,15 @@
 					<li class="clearfix">
 						<span class="social_icon form"></span>
 						<p class="value">
-							<a href="?page=contact" title="Contact form">Formulario de contacto</a>
+							<a href="contact" title="Contact form">Formulario de contacto</a>
 						</p>
 					</li>
 				</ul>
 			</div>
 		</div>
 	</div>
+</div>
+<div class="fijado min_show animated_element animation-slideUp delay-2600">
+    <a class="" onclick="goog_report_conversion('tel:900-505-100')" href="tel://900505100" ><p>900 505 100<br><span>Llámanos y recupera tu vida</span></p></a>
+    
 </div>

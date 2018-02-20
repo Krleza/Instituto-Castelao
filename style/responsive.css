@@ -1,4 +1,5 @@
-@media screen and (max-width:1024px)
+
+@media screen and (max-width:1175px)
 {
 	blockquote
 	{
@@ -40,7 +41,7 @@
 		width: 20%;
                 
 	}
-        .header_right
+    .header_right
 	{
 		width: 80%;
                 
@@ -58,15 +59,13 @@
             height: auto;
         }
 	/* --- menu --- */
-        .sf-menu
+     .sf-menu
 	{
-		margin-top: 60px;
-                margin-left: 0px;
-                font-size: 12px;
-                width: 750px;
-                position: fixed;
-                margin-left: 120px;
-               
+		margin-left: 0px;
+        font-size: 12px;
+        width: 750px;
+        margin-left: 120px;
+         
 	}
 	.sf-menu li
 	{
@@ -141,9 +140,19 @@
 	.top_hint
 	{
 		margin-top: 0px;
-                margin-right: 0px;
+        margin-right: 0px;
+        display: none;
 
 	}
+	.top_hint2
+	{
+		margin-top: 0px;
+		margin-bottom:-30px; 
+        margin-right: 0px;
+    }
+    .serv{
+    	display: none;
+    }
 	/* --- page header --- */
 	.page_header
 	{
@@ -189,6 +198,7 @@
 	{
 		font-size: 56px;
 	}
+
 	/* --- home box --- */
 	.home_box_container
 	{
@@ -263,7 +273,7 @@
 	{
 		padding-bottom: 18px;
 	}
-	.post_content, .post_content a.post_image img, .post_content .gallery_box img
+	.post_content, .post_content a.post_image img, .post_content .gallery_box img, .gallery_mio img
 	{
 		width: 367px;
 	}
@@ -517,6 +527,7 @@
 	{
 		margin-top: 23px;
 	}
+    .gallery_mio {margin-left: 15%;margin-right: 15%}
 	.gallery_box img
 	{
 		width: 230px;
@@ -553,7 +564,7 @@
 		width: 360px;
 		height: auto;
 	}
-	.gallery_3_columns .gallery_box img
+	.gallery_3_columns .gallery_box img, .gallery_mio .gallery_box img
 	{
 		width: 230px;
 		height: auto;
@@ -682,7 +693,7 @@
 	.top_hint
 	{
 		margin-top: 0px;
-                margin-bottom: -50px;
+        margin-bottom: -50px;
 	}
 	/* --- footer --- */
 	.footer
@@ -712,6 +723,7 @@
 	{
 		font-size: 36px;
 	}
+
 	/* --- home box --- */
 	.home_box
 	{
@@ -926,6 +938,10 @@
 		width: 225px;
 		height: 150px;
 	}
+	.team_right{
+		margin-right: 0px;
+	}
+    .gallery_mio {margin-left: 0%;margin-right: 0%}
 	.gallery, 
 	.gallery_item_details_list .gallery_box, 
 	.gallery_item_details_list .gallery_box img, 
@@ -951,7 +967,7 @@
 		width: 462px;
 		height: 300px;
 	}
-	.gallery_3_columns .gallery_box img
+	.gallery_3_columns .gallery_box img, .gallery_mio .gallery_box img
 	{
 		width: 225px;
 		height: 150px;
@@ -1028,6 +1044,7 @@
 	{
 		width: 187px;
 	}
+    
 }
 @media screen and (max-width:479px)
 {
@@ -1073,14 +1090,7 @@
 	{
 		width: 300px;
 	}
-	.top_hint
-	{
-		margin-top: 0px;
-                width: auto;
-	}
-        .resp_hide{
-            display: none;
-        }
+
 	/* --- bread crumb --- */
 	.bread_crumb
 	{
@@ -1095,11 +1105,12 @@
 	/* --- slider --- */
 	.slider li
 	{
-		height: 210px;
-		background-size: auto 210px;
-		-moz-background-size: auto 210px;
-		-webkit-background-size: auto 210px;
-		-o-background-size: auto 210px;
+		height: 420px;
+        background-image: url(../images/slider/centro-de-desintoxicacion-castelao.jpg);
+		background-size: auto 420px;
+		-moz-background-size: auto 420px;
+		-webkit-background-size: auto 420px;
+		-o-background-size: auto 420px;
 	}
 	.slider_content_box
 	{
@@ -1110,6 +1121,7 @@
 	{
 		font-size: 24px;
 	}
+
 	/* --- home box --- */
 	.home_box
 	{
@@ -1141,7 +1153,7 @@
 	{
 		width: 300px;
 	}
-	.post_content, .post_content a.post_image img, .post_content .gallery_box img
+	.post_content, .post_content a.post_image img, .post_content .gallery_box img, .gallery_mio .gallery_box img
 	{
 		width: 300px;
 	}
@@ -1302,12 +1314,13 @@
 	.page_left .gallery_item_details_list .gallery_box,
 	.page_left .gallery_item_details_list .column_right,
 	.page_left .gallery_item_details_list .details_box,
-	.page_left .gallery_item_details_list .gallery_box img
+	.page_left .gallery_item_details_list .gallery_box img, .gallery_mio .gallery_box img
 	{
 		width: 300px;
 	}
+        .gallery_mio {margin-left: 0px;margin-right: 0px; width: 300px}
 	.gallery_2_columns .gallery_box img,
-	.gallery_3_columns .gallery_box img
+	.gallery_3_columns .gallery_box img, .gallery_mio .gallery_box img
 	{
 		width: 300px;
 		height: auto;

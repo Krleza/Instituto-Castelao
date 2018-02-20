@@ -1,6 +1,5 @@
-<?php
-require_once("contact_form/config.php");
-?>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
 <div class="page relative">
 	<div class="page_layout page_margin_top clearfix">
 		<div class="page_header clearfix">
@@ -11,89 +10,91 @@ require_once("contact_form/config.php");
 			
 		</div>
 		<div class="clearfix">
-			<div class="contact_map page_margin_top" id="map">
-			</div>
-			<div class="page_margin_top clearfix">
+			
 				<div class="page_left">
-					<h3 class="box_header">
-						Solicite informacion a traves de nuestro formulario online o llame gratuitamente.
-                                        </h3>
-                                    <br><br>
-                                    <span class="tlf">900 505 100</span>
+                <!-- CONTACTO     -->         
+                			<div class="cta-contact animated_element animation-slideRight delay-500">
+                 <!-- CONTACTO     -->         
+                <div class="asesor-contact">
+				
+                    <h2>¿Por dónde empezar?</h2>
+                                <a class="resp_hide" onclick="goog_report_conversion('tel:900-505-100')" href="tel:900505100" ><p>900 505 100</p></a>
+                    <a class="max_hide " onclick="goog_report_conversion('tel:900-505-100')" href="tel:900505100" ><p>900 505 100</p></a>
+				<p class="callfree">Llámenos gratis</p>
+                    </div>
+
+	            </div>            
+
+					
+	           
+                
+	   <!-- FIN DE CONTACTO     -->                        
+                    
+                    
+                    <div class="justificado">
 					
                                     <p>
                                         Pedir ayuda es el primer paso para superar la enfermedad. Nuestro equipo de asesoramiento estará encantado de atender a sus dudas respecto a las adicciones y su tratamiento.
                                     </p>
                                     <p>
-                                        Instituto Castelao ofrece una semana de valoración donde el paciente puede comprobar la eficacia del tratamiento.
+                                        Instituto Castelao ofrece una semana de valoración donde el paciente puede comprobar la idoneidad del tratamiento.
                                     </p>
                                     <p>
-                                        Si lo desea puede concertar una visita a nuestro centro para conocernos y que podamos valorar su caso.
+                                        Si lo desea puede concertar una visita a cualquiera de nuestros centros para conocernos y que podamos valorar su caso.
                                     </p>
-					<form class="contact_form" id="contact_form" method="post" action="contact_form/contact_form.php">
-						<ul class="clearfix tabs_box_navigation sf-menu">
-							<li class="tabs_box_navigation_selected submenu wide">
-								<input type="hidden" name="department" value="" />
-								<span>Indiquenos el motivo de su consulta:</span>
-								<ul>
-									<li>
-										<a href="#laryngological-clinic" title="Laryngological Clinic">
-											Familiar de una persona adicta
-										</a>
-									</li>
-									<li>
-										<a href="#primary-health-care" title="Primary Health Care">
-											Adicto
-										</a>
-									</li>
-									<li>
-										<a href="#ophthalmology-clinic" title="Ophthalmology Clinic">
-											Dudas o consultas sobre la adicción
-										</a>
-									</li>
-									
-								</ul>
-							</li>
-						</ul>
-						<fieldset class="left">
-							<label>Nombre</label>
-							<div class="block">
-								<input class="text_input" name="first_name" type="text" value="" />
-							</div>
-						</fieldset>
-						<fieldset class="right">
-							<label>E-mail</label>
-							<div class="block">
-								<input class="text_input" type="text" name="email" value="" />
-							</div>
-						</fieldset>
-						<fieldset style="clear:both;">
-							<label>Escriba aquí su consulta</label>
-							<div class="block">
-								<textarea name="message"></textarea>
-							</div>
-							<input type="hidden" name="action" value="contact_form" />
-							<input type="submit" name="submit" value="Enviar" class="more blue" />
-						</fieldset>
-					</form>
+
+
+                    
+                    </div>
+ 
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
 				</div>
+            
 				<div class="page_right">
 					<h3 class="box_header">
 						Instituto Castelao
 					</h3>
 					<h3 class="sentence">
-                                                Las consultas via Internet son tratadas de forma absolutamente confidencial y respondidas por nuestro equipo médico y terapéutico. 
-                                        </h3>
+                            Todas las consultas son tratadas de forma absolutamente confidencial y respondidas por nuestro equipo médico y terapéutico. 
+                    </h3>
 					<ul class="columns no_padding page_margin_top clearfix">
 						<li class="column_left">
-							Instituto Castelao<br />
-							Calle Darwin, 6<br />
-							Santa Cristina Oleiros<br />
-							15172 A coruña, España
+							Castelao Andalucía<br />
+							Ctra. MA-3203 km. 1,7<br />
+							Autovia A7, Salida 265<br />
+							29792, Vélez Málaga
 						</li>
 						<li class="column_right">
-							Telefono: 981 634 925<br />
-							Codigo de registo en la seguridad social: <br />C-15-002325 <br />
+							Teléfono:  951 209 201 <br />
+							Código de registro en el servicio andaluz de salud: <br />NICA-45525 <br />
+							
+						</li>
+					</ul>
+					<ul class="columns no_padding page_margin_top clearfix">
+						<li class="column_left">
+							Castelao Galicia<br />
+							Calle Darwin, 6<br />
+							Santa Cristina Oleiros<br />
+							15172 A Coruña, España
+						</li>
+						<li class="column_right">
+							Teléfono: 981 639 921<br />
+							Código de registro en el servicio gallego de salud: <br />C-15-002325 <br />
 							
 						</li>
 					</ul>
@@ -101,7 +102,7 @@ require_once("contact_form/config.php");
 						<li class="clearfix">
 							<span class="social_icon phone"></span>
 							<p class="value">
-								Phone: <strong>900 505 100</strong>
+								Teléfono: <strong>900 505 100</strong>
 							</p>
 						</li>
 						<li class="clearfix">
@@ -113,7 +114,11 @@ require_once("contact_form/config.php");
 						
 					</ul>
 				</div>
+            	<div class="page_margin_top clearfix">
 			</div>
+            <div class="contact_map page_margin_top" id="map">
+			</div>
+		
 		</div>
 	</div>
 </div>

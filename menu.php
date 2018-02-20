@@ -1,65 +1,76 @@
 <ul class="sf-menu header_right">
-	<li class="submenu<?php echo ($_GET["page"]=="" || $_GET["page"]=="home" || $_GET["page"]=="home_2" || $_GET["page"]=="home_3" || $_GET["page"]=="home_4" || $_GET["page"]=="home_5" || $_GET["page"]=="home_small_slider" ? " selected" : ""); ?>">
-		<a href="?page=home" title="INICIO">
+	<li class="submenu<?php echo ($_GET["page"]=="home" ? " selected" : ""); ?> border">
+		<a href="home" title="INICIO">
 			INICIO
 		</a>
-		
 	</li>
 	<li class="submenu<?php echo ($_GET["page"]=="galicia" || $_GET["page"]=="galeria#filter=.galicia" || $_GET["page"]=="personal" || $_GET["page"]=="galeria" || $_GET["page"]=="malaga" || $_GET["page"]=="galeria#filter=.malaga"  ? " selected" : ""); ?>">
 		<a href="#" title="NUESTROS CENTROS">
-			NUESTROS CENTROS
+			CENTROS
 		</a>
 		<ul>
+         <li<?php echo ($_GET["page"]=="alicante" || $_GET["page"]=="madrid" ? " class='selected'" : ""); ?>>
+				<a href="madrid" title="Madrid">
+					Madrid
+				</a>				
+			</li>
 			<li<?php echo ($_GET["page"]=="galicia" ? " class='selected'" : ""); ?>>
-				<a href="?page=galicia" title="Nuestro centro en Galicia">
+				<a href="galicia" title="Nuestro centro en Galicia">
 					Galicia
 				</a>
                             
-                                <ul class="wide">
+                    <ul class="wide">
 					<li>
-						<a href="?page=galicia" title="Features Styles">
+						<a href="galicia" title="El centro de Galicia">
 							El centro
 						</a>
 					</li>
 					<li>
-						<a href="?page=galeria#filter=.galicia" title="Carousel">
+						<a href="galeria#filter=.galicia" title="Galería de Galicia ">
 							Galería
 						</a>
 					</li>
-                                        <li>
-						<a href="?page=personal" title="Carousel">
-							Equipo médico
+                    <!-- <li>
+						<a href="personal" title="Carousel">
+							Equipo de dirección
 						</a>
-					</li>
+					</li> -->
 
 				</ul>
                             
 			</li>
 			<li<?php echo ($_GET["page"]=="malaga" || $_GET["page"]=="malaga" ? " class='selected'" : ""); ?>>
-				<a href="?page=malaga" title="malaga">
-					Málaga
+				<a href="malaga" title="Málaga">
+					Andalucía
 				</a>
 
 				<ul class="wide">
 					<li>
-						<a href="?page=malaga" title="Features Styles">
+						<a href="malaga" title="El centro de Andalucía">
 							El centro
 						</a>
 					</li>
 					<li>
-						<a href="?page=galeria#filter=.malaga" title="Carousel">
+						<a href="galeria#filter=.malaga" title="Galería de Andalucía">
 							Galería
 						</a>
 					</li>
-                                        <li>
-						<a href="?page=personal" title="Carousel">
-							Equipo médico
+                  <!--  <li>
+						<a href="personal" title="Carousel">
+							Equipo de dirección
+
 						</a>
-					</li>
+					</li> -->
 				</ul>
 				
 			</li>
+			<li<?php echo ($_GET["page"]=="alicante" || $_GET["page"]=="alicante" ? " class='selected'" : ""); ?>>
+				<a href="alicante" title="Alicante">
+					Alicante
+				</a>
 
+				
+			</li>
 		</ul>
 	</li>
 	<li class="submenu<?php echo ($_GET["page"]=="enfermedad" || $_GET["page"]=="adiccion" || $_GET["page"]=="diagnostico" || $_GET["page"]=="voluntad" || $_GET["page"]=="ayuda" ? " selected" : ""); ?>">
@@ -68,66 +79,66 @@
 		</a>
 		<ul>
                         <li<?php echo ($_GET["page"]=="enfermedad" ? " class='selected'" : ""); ?>>
-				<a href="?page=enfermedad" title="La enfermedad">
+				<a href="enfermedad" title="La enfermedad">
 					La enfermedad
 				</a>
 			</li>
 			<li<?php echo ($_GET["page"]=="adiccion" ? " class='selected'" : ""); ?>>
-				<a href="?page=adiccion" title="¿Qué es una adicciï¿½n?">
+				<a href="adiccion" title="¿Qué es una adicción?">
 					¿Qué es una adicción?
 				</a>
 			</li>
 			<li<?php echo ($_GET["page"]=="diagnostico" ? " class='selected'" : ""); ?>>
-				<a href="?page=diagnostico" title="ï¿½Cï¿½mo se diagnostica?">
+				<a href="diagnostico" title="¿Cómo se diagnostica?">
 					¿Cómo se diagnostica?
 				</a>
 			</li>
 			<li<?php echo ($_GET["page"]=="voluntad" ? " class='selected'" : ""); ?>>
-				<a href="?page=voluntad" title="Cuando la voluntad no puede">
+				<a href="voluntad" title="Cuando la voluntad no puede">
 					Cuando la voluntad no puede
 				</a>
 			</li>
 			<li<?php echo ($_GET["page"]=="ayuda" ? " class='selected'" : ""); ?>>
-				<a href="?page=ayuda" title="La ayuda necesaria">
+				<a href="ayuda" title="La ayuda necesaria">
 					La ayuda necesaria
 				</a>
 			</li>
 			
 		</ul>
 	</li>
-	<li class="submenu wide<?php echo ($_GET["page"]=="test" ? " selected" : ""); ?>">
-		<a href="?page=test" title="TEST SINTOMATICO">
-			TEST SINTOMÁTICO
+	<li class="submenu<?php echo ($_GET["page"]=="test" ? " selected" : ""); ?> border">
+		<a href="test" title="TEST SINTOMATICO">
+			TEST
 		</a>
 		
 	</li>
 	<li class="submenu<?php echo ($_GET["page"]=="tratamiento" || $_GET["page"]=="objetivos" || $_GET["page"]=="fases" || $_GET["page"]=="abordaje" || $_GET["page"]=="familiares" ? " selected" : ""); ?>">
 		<a href="#" title="EL TRATAMIENTO">
-			EL TRATAMIENTO
+			TRATAMIENTO
 		</a>
 		<ul class="submenu">
                     	<li>
-				<a href="?page=tratamiento" title="El tratamiento hipocrates">
-					El tratamiento Hipócrates
+				<a href="tratamiento" title="El tratamiento Castelao">
+					El tratamiento Castelao
 				</a>
 			</li>
 			<li>
-				<a href="?page=objetivos" title="Obejtivos del tratamiento">
-					Obejtivos del tratamiento
+				<a href="objetivos" title="Objetivos del tratamiento">
+					Objetivos del tratamiento
 				</a>
 			</li>
 			<li>
-				<a href="?page=fases" title="Fases del tratamiento">
+				<a href="fases" title="Fases del tratamiento">
 					Fases del tratamiento
 				</a>
 			</li>
 			<li>
-				<a href="?page=abordaje" title="Abordaje terapï¿½utico">
+				<a href="abordaje" title="Abordaje terapéutico">
 					Abordaje terapéutico
 				</a>
 			</li>
 			<li>
-				<a href="?page=familiares" title="familiares y pareja">
+				<a href="familiares" title="familiares y pareja">
 					Familiares y pareja
 				</a>
 			</li>
@@ -140,84 +151,113 @@
 		</a>
 		<ul>
 			<li<?php echo ($_GET["page"]=="alcohol" ? " class='selected'" : ""); ?>>
-				<a href="?page=alcohol" title="2 Columns">
+				<a href="alcohol" title="Alcohol">
 					Alcohol
 				</a>
 			</li>
 			<li<?php echo ($_GET["page"]=="cocaina" ? " class='selected'" : ""); ?>>
-				<a href="?page=cocaina" title="3 Columns">
+				<a href="cocaina" title="Cocaína">
 					Cocaína
 				</a>
 			</li>
 			<li<?php echo ($_GET["page"]=="cannabis" ? " class='selected'" : ""); ?>>
-				<a href="?page=cannabis" title="4 Columns">
+				<a href="cannabis" title="Cannabis">
 					Cannabis
 				</a>
 			</li>
 			<li<?php echo ($_GET["page"]=="varias" ? " class='selected'" : ""); ?>>
-				<a href="?page=varias" title="With Sidebar">
+				<a href="varias" title="Varias drogas">
 					Varias drogas
 				</a>
 			</li>
 		</ul>
 	</li>
-	<li<?php echo ($_GET["page"]=="contact" ? " class='selected'" : ""); ?>>
-		<a href="?page=contact" title="CONTACTO">
+    	<li class="submenu<?php echo ($_GET["page"]=="testimonios" ? " selected" : ""); ?> border">
+		<a href="testimonios" title="TESTIMONIOS">
+			TESTIMONIOS
+		</a>
+		
+	</li>
+	<li<?php echo ($_GET["page"]=="prensa" ? " class='selected'" : ""); ?>>
+		<a href="prensa" title="PRENSA">
+			PRENSA
+		</a>
+	</li>
+    	<li<?php echo ($_GET["page"]=="contact" ? " class='selected'" : ""); ?>>
+		<a href="contact" title="CONTACTO">
 			CONTACTO
 		</a>
 	</li>
 </ul>
 
 
-	<div class="top_hint">
-		<span class="resp_hide">Llamada gratuita:</span> <a href="tel:900-505-100">900 505 100</a>
+	<div class="toptel" >
+             <span class="resp_hide">24h: </span><a onclick="goog_report_conversion('tel:900-505-100')" href="tel:900505100" >900 505 100</a>
+        
+
+	</div>
+	<div class="top_hint" >
+<a class="resp_hide claro" onclick="goog_report_conversion('tel:918-339-026')" href="#" >Madrid: 918 339 026<br> </a>
+		<a class="resp_hide claro" onclick="goog_report_conversion('tel:981-639-921')" href="#" >Galicia: 981 639 921<br> </a>
+        <a class="resp_hide claro" onclick="goog_report_conversion('tel:951-209-201')" href="#" >Andalucía: 951 209 201<br> </a>
+        <a class="resp_hide  claro" onclick="goog_report_conversion('tel:965-775-655')" href="#" >Alicante: 965 775 655<br> </a>
+		
+	</div>
+	<div class="titulo" >
+		<h1 class="resp_hide tit_main">INSTITUTO CASTELAO</h1> 
+		<h2 class="serv">Centros médicos para el tratamiento de adicciones</h2> 
 	</div>
 
 <div id='cssmenu' class="header_right">
 <ul id='slidemenu'>
-   <li><a href='?page=home'><span>Inicio</span></a></li>
-   <li class='has-sub'><a href='#'><span>Nuesros Centros</span></a>
+   <li class='has-sub'><a href='#'><span>Centros</span></a>
       <ul>
-         <li><a href='?page=galicia'><span>Galicia</span></a>
+          <li><a href='madrid'><span>Madrid</span></a>
          </li>
-         <li class='last'><a href='?page=malaga'><span>Málaga</span></a>
+         <li><a href='galicia'><span>Galicia</span></a>
+         </li>
+         <li><a href='malaga'><span>Andalucía</span></a>
+         </li>
+          <li class='last'><a href='alicante'><span>Alicante</span></a>
          </li>
       </ul>
    </li>
   
    <li class='has-sub'><a href='#'><span>La adicción</span></a>
       <ul>
-        <li><a href='?page=enfermedad'><span>La enfermedad</span></a></li>
-        <li><a href='?page=adiccion'><span>¿Qué es una adicción?</span></a></li>
-        <li><a href='?page=diagnostico'><span>¿Cómo se diagnostica?</span></a></li>
-        <li><a href='?page=voluntad'><span>Cuando la voluntad no es suficiente</span></a></li>
-        <li class='last'><a href='?page=ayuda'><span>La ayuda necesaria</span></a></li>
+        <li><a href='enfermedad'><span>La enfermedad</span></a></li>
+        <li><a href='adiccion'><span>¿Qué es una adicción?</span></a></li>
+        <li><a href='diagnostico'><span>¿Cómo se diagnostica?</span></a></li>
+        <li><a href='voluntad'><span>Cuando la voluntad no es suficiente</span></a></li>
+        <li class='last'><a href='ayuda'><span>La ayuda necesaria</span></a></li>
       </ul>
    </li>
     
 
-   <li><a href='?page=test'><span>Test sintomático</span></a></li>
+   <li><a href='test'><span>Test sintomático</span></a></li>
    
     <li class='has-sub'><a href='#'><span>El tratamiento</span></a>
       <ul>
-        <li><a href='?page=tratamiento'><span>El tratamiento Hipócrates</span></a></li>
-        <li><a href='?page=objetivos'><span>Objetivos del tratamiento</span></a></li>
-        <li><a href='?page=fases'><span>Fases del tratamiento</span></a></li>
-        <li><a href='?page=abordaje'><span>El abordaje terapeútico</span></a></li>
-        <li class='last'><a href='?page=familiares'><span>Familiares y pareja</span></a></li>
+        <li><a href='tratamiento'><span>El tratamiento Castelao</span></a></li>
+        <li><a href='objetivos'><span>Objetivos del tratamiento</span></a></li>
+        <li><a href='fases'><span>Fases del tratamiento</span></a></li>
+        <li><a href='abordaje'><span>El abordaje terapeútico</span></a></li>
+        <li class='last'><a href='familiares'><span>Familiares y pareja</span></a></li>
       </ul>
    </li>
    
     <li class='has-sub'><a href='#'><span>Sustancias</span></a>
       <ul>
-        <li><a href='?page=alcohol'><span>Alcohol</span></a></li>
-        <li><a href='?page=cocaina'><span>Cocaína</span></a></li>
-        <li><a href='?page=cannabis'><span>Cannabis</span></a></li>
-        <li class='last'><a href='?page=varias'><span>Varias Drogas</span></a></li>
+        <li><a href='alcohol'><span>Alcohol</span></a></li>
+        <li><a href='cocaina'><span>Cocaína</span></a></li>
+        <li><a href='cannabis'><span>Cannabis</span></a></li>
+        <li class='last'><a href='varias'><span>Varias Drogas</span></a></li>
       </ul>
    </li>
-
-   <li class='last'><a href='?page=contact'><span>Contacto</span></a></li>
+    <li><a href='testimonios'><span>Testimonios</span></a></li>
+    <li><a href='prensa'><span>Prensa</span></a></li>
+<li><a href='docs/Instituto-Castelao.pdf'><span>Guía informativa</span></a></li>
+   <li class='last'><a href='contact'><span>Contacto</span></a></li>
 </ul>
 </div>
 

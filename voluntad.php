@@ -14,16 +14,14 @@
 						<div class="gallery_box">
 							<ul class="image_carousel">
 								<li class="current_slide">
-									<img src="images/responsive/salir_de_la_droga.jpg" alt=""/>
+									<img src="images/responsive/tratamiento-de-adicciones.jpg" alt="desintoxicación alcohol cocaina" />
 								</li>
 			
 							</ul>
 						</div>
-						<!--<a class="post_image" href="?page=post" title="Lorem ipsum dolor sit amat velum">
-							<img src="images/responsive/520x240/terapia_drogadiccion.jpg" alt="" />
-						</a>-->
+						
 						<h2>
-                                                    Sin tratamiento, superar la adiccion resulta practicamente imposible.	
+                                                    Sin tratamiento, superar la adicción resulta prácticamente imposible.	
 						</h2>
 						<p>
                                                     Un individuo que no padece la enfermedad de la adicci&oacute;n es capaz con su voluntad, de 
@@ -37,7 +35,9 @@
                                                     la enfermedad de la adicci&oacute;n es fundamental buscar ayuda y asesoramiento exterior. Un tratamiento profesional es
                                                     capaz de recuperar al paciente haciendo que abandone el consumo y ayud&aacute;ndole a recuperar su vida.
                                                 </p>
-									
+							 <a class="enlace" href="objetivos" title="tratamiento" ><p class="enlatext">Objetivos del tratamiento</p></a>
+                        
+				<a class="enlace" href="diagnostico" title="¿Cómo se diagnostica?" ><p class="enlatext">¿Cómo se diagnostica?</p></a>			
 					</div>
 				</li>
 			</ul>
@@ -67,7 +67,7 @@
 				<div class="scrolling_list_wrapper">
 					<ul class="scrolling_list most_commented">
 						<li class="icon_small_arrow right_black">
-							<a href="?page=enfermedad" class="clearfix">
+							<a href="enfermedad" class="clearfix">
 								<span class="left">
 								La enfermedad de la adicción	
 								</span>
@@ -76,7 +76,7 @@
 							<abbr title="" class="timeago"></abbr>
 						</li>
 						<li class="icon_small_arrow right_black">
-							<a href="?page=adiccion" class="clearfix">
+							<a href="adiccion" class="clearfix">
 								<span class="left">
 									¿qué es una adicción?
 								</span>
@@ -85,7 +85,7 @@
 							<abbr title="" class="timeago"></abbr>
 						</li>
 						<li class="icon_small_arrow right_black">
-							<a href="?page=diagnostico" class="clearfix">
+							<a href="diagnostico" class="clearfix">
 								<span class="left">
 									¿Cómo se diagnostica?
 								</span>
@@ -93,7 +93,7 @@
                             <abbr title="" class="timeago"></abbr>
 						</li>
 						<li class="icon_small_arrow right_black">
-							<a href="?page=ayuda" class="clearfix">
+							<a href="ayuda" class="clearfix">
 								<span class="left">
 									La ayuda necesaria
 								</span>
@@ -128,11 +128,15 @@
 					<li class="clearfix">
 						<span class="social_icon form"></span>
 						<p class="value">
-							<a href="?page=contact" title="Contact form">Formulario de contacto</a>
+							<a href="contact" title="Contact form">Formulario de contacto</a>
 						</p>
 					</li>
 				</ul>
 			</div>
 		</div>
 	</div>
+</div>
+<div class="fijado min_show animated_element animation-slideUp delay-2600">
+    <a class="" onclick="goog_report_conversion('tel:900-505-100')" href="tel:900505100" ><p>900 505 100<br><span>1ª consulta gratuita</span></p></a>
+    
 </div>

@@ -16,14 +16,12 @@
 						<div class="gallery_box">
 							<ul class="image_carousel">
 								<li class="current_slide">
-									<img src="images/responsive/520x240/ayudar_a_un_alcoholico.jpg" alt=""/>
+									<img src="images/responsive/familia-adicto.jpg" alt="Familiares adictos"/>
 								</li>
 			
 							</ul>
 						</div>
-						<!--<a class="post_image" href="?page=post" title="Lorem ipsum dolor sit amat velum">
-							<img src="images/responsive/520x240/terapia_drogadiccion.jpg" alt="" />
-						</a>-->
+						
 						<h2>
                                                     La familia es una pieza clave para la recuperaci&oacute;n
 						</h2>
@@ -77,16 +75,16 @@
 				<div class="scrolling_list_wrapper">
 					<ul class="scrolling_list most_commented">
 						<li class="icon_small_arrow right_black">
-							<a href="?page=tratamiento" class="clearfix">
+							<a href="tratamiento" class="clearfix">
 								<span class="left">
-								El tratamiento Hipócrates	
+								El tratamiento Castelao
 								</span>
 							
 							</a>
 							<abbr title="" class="timeago"></abbr>
 						</li>
 						<li class="icon_small_arrow right_black">
-							<a href="?page=objetivos" class="clearfix">
+							<a href="objetivos" class="clearfix">
 								<span class="left">
 									Los objetivos del tratamiento
 								</span>
@@ -95,7 +93,7 @@
 							<abbr title="" class="timeago"></abbr>
 						</li>
 						<li class="icon_small_arrow right_black">
-							<a href="?page=familiares" class="clearfix">
+							<a href="familiares" class="clearfix">
 								<span class="left">
 									Familiares y pareja
 								</span>
@@ -103,7 +101,7 @@
                             <abbr title="" class="timeago"></abbr>
 						</li>
 						<li class="icon_small_arrow right_black">
-							<a href="?page=abordaje" class="clearfix">
+							<a href="abordaje" class="clearfix">
 								<span class="left">
 									El abordaje terapeútico
 								</span>
@@ -137,7 +135,7 @@
 					<li class="clearfix">
 						<span class="social_icon form"></span>
 						<p class="value">
-							<a href="?page=contact" title="Contact form">Formulario de contacto</a>
+							<a href="contact" title="Contact form">Formulario de contacto</a>
 						</p>
 					</li>
 				</ul>

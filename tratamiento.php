@@ -2,7 +2,7 @@
 	<div class="page_layout page_margin_top clearfix">
 		<div class="page_header clearfix">
 			<div class="page_header_left">
-				<h1 class="page_title">EL tratamiento Hipócrates</h1>
+				<h1 class="page_title">El tratamiento Castelao</h1>
 				
 			</div>
 		</div>
@@ -14,46 +14,43 @@
 						<div class="gallery_box">
 							<ul class="image_carousel">
 								<li class="current_slide">
-									<img src="images/responsive/520x240/tratamiento_hipocrates.jpg" alt=""/>
+									<img src="images/responsive/centro-desintoxicacion-adicciones.jpg" alt="tratamiento de adicciones"/>
 								</li>
 			
 							</ul>
 						</div>
-						<!--<a class="post_image" href="?page=post" title="Lorem ipsum dolor sit amat velum">
-							<img src="images/responsive/520x240/terapia_drogadiccion.jpg" alt="" />
-						</a>-->
+			
+						<p>Nuestro tratamiento, junto a la medicina especializada e indispensable, 
+							está fundamentado en la amplia experiencia y excelentes e incomparables resultados  
+							que consiguen los terapeutas adictos y formados dirigiendo la recuperación y 
+							reinserción de los pacientes adictos. Conocimiento de la enfermedad y vocación, son las claves.
+						</p>
 						<h2>
                                                     Orígenes e historia	
 						</h2>
 						<p>
-                                                    Tratamiento pionero en adicciones que se inicia en 1984 en la
+                                              Tratamiento pionero en adicciones que se inicia en 1984 en la
                                                     localidad de La Garriga en Barcelona.
                                                 </p><p>
                                                     Fueron sus fundadores los doctores Montal, Bach y Freixas,
-                                                    psiquiatras de la Unidad de Alcohología del Hospital Clinic i Provincial
+                                                    psiquiatras de la Unidad de Alcohología del Hospital Clínic i Provincial
                                                     de Barcelona.
                                                 </p><p>
-                                                    Inicia su actividad como Centro Terap&eacute;utico del Valles y su definitivo
-                                                    impulso y consolidaci&oacute;n lo realiza el equipo dirigido por el Doctor
-                                                    Ángel Rubio, actual Director de Instituto Hip&oacute;crates.
+                                                    Inicia su actividad como Centro Terapéutico del Valles y su definitivo
+                                                    impulso y consolidación lo realiza el equipo dirigido por el Doctor
+                                                    Ángel Rubio.
                                                 </p><p>
-                                                    El Dr. Rubio es fundador en su inicio del Centro Terap&eacute;utico Mare
-                                                    Nostrum y posteriormente del Instituto Hip&oacute;crates.
-                                                </p><p>
-                                                    Desde 1989 este tratamiento y su abordaje terap&eacute;utico consigue
+                                                    Desde 1989 este tratamiento y su abordaje terapéutico consigue
                                                     el mayor índice de recuperaciones por pacientes tratados en
                                                     España. Del orden de ocho de cada diez enfermos.
                                                 </p><p>
                                                     En la actualidad, son varios los Centros en España que abordan la
-                                                    adicci&oacute;n con el Tratamiento Hip&oacute;crates, todos ellos impulsados por
-                                                    pacientes recuperados en Mare Nostrum e Instituto Hip&oacute;crates.
+                                                    adicción con este método.
                                                 </p><p>
-                                                    Y es que esa es una de las claves del &eacute;xito del Tratamiento
-                                                    Hip&oacute;crates. Adictos que han sufrido la enfermedad y con años de
-                                                    recuperaci&oacute;n, se preparan y forman para ser los terapeutas de estos
-                                                    Centros. Los resultados est&aacute;n contrastados.
-                                                </p><p>
-                                                    Instituto Castelao es el centro colaborador de Instituto Hip&oacute;crates - <a href="http://www.institutohipocrates.com/" target="_blank">www.institutohipocrates.com</a> - para la zona Oeste.
+                                                    Y es que esa es una de las claves del éxito del Tratamiento
+                                                    Castelao. Adictos que han sufrido la enfermedad y con años de
+                                                    recuperación, se preparan y forman para ser los terapeutas de estos
+                                                    Centros. Los resultados están contrastados.
                                                 </p>
 									
 					</div>
@@ -85,16 +82,16 @@
 				<div class="scrolling_list_wrapper">
 					<ul class="scrolling_list most_commented">
 						<li class="icon_small_arrow right_black">
-							<a href="?page=objetivos" class="clearfix">
+							<a href="objetivos" class="clearfix">
 								<span class="left">
-								Los objetivos del tratameinto	
+								Los objetivos del tratamiento	
 								</span>
 							
 							</a>
 							<abbr title="" class="timeago"></abbr>
 						</li>
 						<li class="icon_small_arrow right_black">
-							<a href="?page=fases" class="clearfix">
+							<a href="fases" class="clearfix">
 								<span class="left">
 									Las fases del tratamiento
 								</span>
@@ -103,7 +100,7 @@
 							<abbr title="" class="timeago"></abbr>
 						</li>
 						<li class="icon_small_arrow right_black">
-							<a href="?page=abordaje" class="clearfix">
+							<a href="abordaje" class="clearfix">
 								<span class="left">
 									El abordaje terapeútico
 								</span>
@@ -111,7 +108,7 @@
                             <abbr title="" class="timeago"></abbr>
 						</li>
 						<li class="icon_small_arrow right_black">
-							<a href="?page=familiares" class="clearfix">
+							<a href="familiares" class="clearfix">
 								<span class="left">
 									Familiares y pareja
 								</span>
@@ -145,7 +142,7 @@
 					<li class="clearfix">
 						<span class="social_icon form"></span>
 						<p class="value">
-							<a href="?page=contact" title="Contact form">Formulario de contacto</a>
+							<a href="contact" title="Contact form">Formulario de contacto</a>
 						</p>
 					</li>
 				</ul>

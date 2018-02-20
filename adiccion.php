@@ -14,16 +14,16 @@
 						<div class="gallery_box">
 							<ul class="image_carousel">
 								<li class="current_slide">
-									<img src="images/responsive/520x240/la_adiccion_es_una_enfermedad.jpg" alt=""/>
+									<img src="images/responsive/520x240/la_adiccion_es_una_enfermedad.jpg" alt="centro de adicciones"/>
 								</li>
 			
 							</ul>
 						</div>
-						<!--<a class="post_image" href="?page=post" title="Lorem ipsum dolor sit amat velum">
+						<!--<a class="post_image" href="post" title="Lorem ipsum dolor sit amat velum">
 							<img src="images/responsive/520x240/terapia_drogadiccion.jpg" alt="" />
 						</a>-->
 						<h2>
-                                                    Definicion y sintomas.	
+                                                    Definición y síntomas.	
 						</h2>
 						<p>
                                                     La adicción es una enfermedad primaria que se caracteriza por la pérdida de control sobre el consumo de sustancias con alto potencial de abuso y dependencia, invadiendo progresivamente todas las facetas de la vida del individuo. 
@@ -33,7 +33,9 @@
                                                 <p>
                                                     Todo ello a pesar de las consecuencias extraordinariamente negativas derivadas del consumo, que afectan y deterioran las distintas facetas de la vida del adicto (conflictos familiares, perdida de las amistades, rendimiento laboral o académico, etc) así como su estabilidad psíquica y su estado físico.
                                                 </p>
-									
+							<a class="enlace" href="test" title="test" ><p class="enlatext">Test de síntomas de adicción</p></a>
+                        
+				<a class="enlace" href="diagnostico" title="¿Cómo se diagnostica?" ><p class="enlatext">¿Cómo se diagnostica?</p></a>			
 					</div>
 				</li>
 			</ul>
@@ -63,7 +65,7 @@
 				<div class="scrolling_list_wrapper">
 					<ul class="scrolling_list most_commented">
 						<li class="icon_small_arrow right_black">
-							<a href="?page=enfermedad" class="clearfix">
+							<a href="enfermedad" class="clearfix">
 								<span class="left">
 								La enfermedad de la adicción	
 								</span>
@@ -72,7 +74,7 @@
 							<abbr title="" class="timeago"></abbr>
 						</li>
 						<li class="icon_small_arrow right_black">
-							<a href="?page=diagnostico" class="clearfix">
+							<a href="diagnostico" class="clearfix">
 								<span class="left">
 									¿Cómo se diagnostica?
 								</span>
@@ -81,7 +83,7 @@
 							<abbr title="" class="timeago"></abbr>
 						</li>
 						<li class="icon_small_arrow right_black">
-							<a href="?page=voluntad" class="clearfix">
+							<a href="voluntad" class="clearfix">
 								<span class="left">
 									Cuando la voluntad no es sufiente
 								</span>
@@ -89,7 +91,7 @@
                             <abbr title="" class="timeago"></abbr>
 						</li>
 						<li class="icon_small_arrow right_black">
-							<a href="?page=ayuda" class="clearfix">
+							<a href="ayuda" class="clearfix">
 								<span class="left">
 									La ayuda necesaria
 								</span>
@@ -123,11 +125,15 @@
 					<li class="clearfix">
 						<span class="social_icon form"></span>
 						<p class="value">
-							<a href="?page=contact" title="Contact form">Formulario de contacto</a>
+							<a href="contact" title="Contact form">Formulario de contacto</a>
 						</p>
 					</li>
 				</ul>
 			</div>
 		</div>
 	</div>
+</div>
+<div class="fijado min_show animated_element animation-slideUp delay-2600">
+    <a class="" onclick="goog_report_conversion('tel:900-505-100')" href="tel:900505100" ><p>900 505 100<br><span>1ª consulta gratuita</span></p></a>
+    
 </div>

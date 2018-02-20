@@ -1,0 +1,1809 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
+body{
+	background-color: white;
+}
+
+a{
+	border: none;
+}
+
+a:hover{
+	border: none;
+}
+
+
+
+
+/*Centro Header*/
+
+.header{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.justificado {text-align: justify;margin-right: 30px}
+/*Modifico el Slider*/
+
+.slider li
+{
+    height: 400px;
+}
+.trans{
+	background: rgba(0, 0, 0, 0.2);
+	padding: 10px;
+}
+
+.slider_content_box
+{
+    margin-top: -320px;
+}
+.slider_content .slider_top_left{
+	margin-top: -9%;
+	margin-right: 30%;
+	width: 50%;
+	float:right;
+	color: #FFF;
+	font-size: 2.2em;
+	
+}	
+.slider_content .slider_top_right{
+	margin-top: -9%;
+	margin-right: 95%;
+	width: 50%;
+	float:right;
+	color: #FFF;
+	font-size: 2.2em;
+}
+.slider_navigation{
+	margin-bottom: 60px;
+
+}
+.slider_links{
+	top: -50px !important;
+//	border: solid 1px black;
+}
+.slider_top{
+	margin-top: -9% !important;
+	margin-right: 17%;
+	width: 50%;
+	float:right;
+	color: #FFF;
+	font-size: 2.2em;
+}
+
+
+/*Workaround para hacer linkables malaga y galicia, muy chungo muy chungo,
+no activar a menos que exista una orden directa e irremediable del jefe*/
+
+/*
+.slider_navigation{
+	margin-bottom: 420px;
+	margin-left: -170px;
+}
+.top_border{
+	display: none !important;
+}
+.slider_control_bar{
+	display: none !important;
+}
+.slider_navigation .slider_control a{
+	color: rgba(0, 0, 0, 0);
+}
+.slider_navigation .slider_bar{
+	color: rgba(0, 0, 0, 0);
+}
+*/
+
+/* Caja de tres colores en home */
+
+.home_box_container
+{
+	margin-top: -70px;
+}
+
+
+/*Imagenes slider*/
+
+	.imgMar{
+		background-image: url('../images/slider/centro-de-adicciones-castelao.jpg');
+        background-position: bottom
+	}
+	.imgCoru{
+		background-image: url('../images/slider/centro-de-adicciones-galicia.jpg')
+	}
+	.imgMalaga{
+		background-image: url('../images/slider/centro-de-desintoxicacion-malaga.jpg')
+	}
+
+
+
+
+/*Telefonos cabecera*/
+
+.top_hint
+{
+	position: relative;
+	float: right;
+	color: #f78f1e;
+	/*background-color: #42B3E5;*/
+	padding: 9px 10px;
+	margin-top: -155px;
+	margin-right: 37px;
+    font-size: 1.42em;
+    line-height:1.3em;
+    text-align: right;
+    letter-spacing: -.01em;
+   
+}
+.toptel{position: relative;
+	float: right;
+	color: #f78f1e;
+	/*background-color: #42B3E5;*/
+	padding: 9px 10px;
+	margin-top: -84px;
+	margin-right: 290px;
+    font-size: 1.42em;
+    line-height:1.3em;
+    letter-spacing: -.02em;}
+
+.top_hint a, .toptel a{
+	color: #f78f1e;
+
+}
+.top_hint .claro, .toptel .claro{color: #42B3E5 }
+
+
+/*Cabecera*/
+
+
+.img_logo{
+	margin-left: 50px;
+}
+
+.titulo
+{
+	position: relative;
+	float: left;
+	color: #0384CE;
+	/*background-color: #42B3E5;*/
+	padding: 9px 10px;
+	margin-top: -140px;
+	margin-left: 250px;
+}
+
+.tit_main{
+	font-size: 3em;
+	font-family: 'PT Sans', sans-serif;
+    color: #0384CE;
+    letter-spacing: .012em
+}
+
+.header_left {
+	margin-right: 60px;
+}
+.serv{
+	color: grey;
+	font-size: 1.2em;
+    letter-spacing: .055em
+}
+
+.sf-menu{
+	padding-top: 5px;
+	border-top: 1px solid #2D678C;
+}
+
+/*SLIDE home abajo*/
+
+.slide_home_abajo{
+	height: 50px !important;
+	margin-bottom: -30px;
+}
+
+/*Footer*/
+.footer_contact_info_container{    width: 350px}
+.second_footer{
+	margin-left: 230px;
+	margin-top: 155px;
+
+}
+footer_contact_info_right {float: left;margin-left: 0px}
+.long_footer{
+	width: 100%;
+}
+
+.fist_footer_mail{
+	margin-top: 20px;
+}
+
+.page_title{
+	margin-right: 10px;
+}
+
+.letra_peq{
+	font-size: 0.5em;
+	color: #ff5a00;
+}
+
+.max_hide {display: none}
+.min_show {display: none}
+
+.thanks {height: 250px;width: 95%;background: rgba(70,178,230,.15);}
+.thanks h3 {color: #0384CE;font-size: 22px;padding: 80px 50px;line-height: 30px;text-align: justify}
+
+/*  ---Formulario   ---*/
+
+.azul {color: #019cdd}
+
+.contact-page.contact-home .privacidad { color:  #8dcde9}
+.consultas_form .privacidad
+{   margin: 0px;
+    padding: 0px;
+    padding-bottom: 0px;
+    color: #42B3E5;
+    margin-top: 5px;
+    font-size: 12px;
+    float: left
+}
+.consultas_form
+{   
+	float: left;
+	width: 100%;
+	margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: -10px;
+    overflow: hidden
+}
+
+.consultas_form .left, .consultas_form .right
+{
+	width: 49%;float: left;margin-bottom: 30px
+    
+}
+.contact-page.contact-home .right {width: 46%;margin-left: 5%}
+
+.whatcall{margin-top: -13px;margin-left: 10%}
+.contact-page.contact-home label {color: #fff}
+
+.comment_form label,
+.consultas_form label
+{
+	display: block;
+	color: #0384CE;
+	margin-top: 10px;
+	margin-bottom: 0px;
+    letter-spacing: .17em
+}
+.comment_form label.first,
+.consultas_form label.first
+{
+	margin-top: 0;
+}
+.comment_form input, .comment_form textarea,
+.consultas_form input, .consultas_form textarea
+{  
+	padding: 10px 7px;
+	color: #0384CE;;
+	margin: 0;
+	background: rgba(255,255,255,.7);
+	border: none;
+	border-top: 1px solid #E0E0E0;
+}
+.comment_form .text_input:focus, .comment_form textarea:focus,
+.consultas_form .text_input:focus, .consultas_form textarea:focus
+{
+	border-color: #f78f1e;
+}
+
+.contact-page.contact-home textarea {background: rgba(255,255,255,.8)}
+.contact-page.contact-home textarea:focus {border-color: orange;}
+
+.consultas_form .left input {margin-top: 0px}
+.consultas_form .left .block {}
+
+
+
+.consultas_form .block
+{
+	margin-top: 5px;
+}
+
+.consultas_form .left .text_input, .consultas_form .right .text_input {
+    width: 78%;
+    letter-spacing: .15em;
+    height: 10px
+}
+
+
+.comment_form .text_input:first-child,
+.consultas_form .block:first-child
+{
+	margin-top: 0;
+}
+.comment_form input[type='submit'],
+.consultas_form input[type='submit']
+{
+	width: 99%;
+	height: 42px;
+	margin: 0% 0% 1%;
+	cursor: pointer;
+	text-align: center;
+	outline: none;
+    background-color: #f78f1e;
+    border: 0px;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: .1em
+}
+
+.contact-page.contact-home input[type='submit']{
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+}
+#cancel_comment
+{
+	display: none;
+	float: right;
+	font-size: 11px;
+	margin-top: 32px;
+	margin-right: 20px;
+}
+.consultas_form .tabs_box_navigation.sf-menu .tabs_box_navigation_selected
+{
+	width: 276px;
+	background-position: 275px center;
+}
+
+
+.contact-home.contact-page .caja {width : 100%;}
+.contact-page.contact-home .caja select{
+    background : rgba(255,255,255, .8);color: #0384CE}
+
+
+.caja {
+ margin-top : 5px;
+ border : 0px solid #d9d9d9;
+ height : 30px;
+ overflow : hidden;
+ width : 100%;
+ position : relative;
+    float: left
+ }
+.caja select {
+ background : rgba(255,255,255, .5);
+ border : none;
+ font-size : 12px;
+ color: #42B3E5;
+ height : 30px;
+ padding : 5px;
+ width : 120%;
+ }
+.caja select:focus {
+ outline : none;
+ }
+.caja::after {
+ content : "\025be";
+ display : table-cell;
+ padding-top : 7px;
+ text-align : center;
+ width : 30px;
+ height : 30px;
+ background-color : rgba(255,255,255, .5);
+ position : absolute;
+ top : 0;
+ right : 0px;
+ pointer-events : none;
+ }
+
+option.horarios{width: 80px;background: rgba(255,255,255, .5)}
+
+
+
+.error{
+    width: 150px;
+    height: auto;
+    position: absolute;
+    padding: 15px;
+    margin-top: 2px;
+    margin-left: 65px;
+    display: none;
+    border:2px solid rgba(15,116,183,1);
+    color: #f7cacb;
+    background-color: rgba(255,255,255,.9);
+    font-size:13px; 
+    color:#9c9d9f;
+    box-shadow: 2px 2px 5px 2px #9c9d9f;
+    -webkit-box-shadow: 2px 2px 5px #9c9d9f;
+    -moz-box-shadow: 2px 2px 5px #9c9d9f;
+    z-index: 1000
+}
+.error_txt{
+    margin-left: 37px;
+}
+
+.bocado_top {
+    height: 0;
+    width: 0;
+    border-bottom: 7px solid rgba(15,116,183,1);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    display: none;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: -5px;
+}
+.alerta{
+    display: inline-block;
+    padding-right:15px;
+    float: left;
+}
+
+
+
+
+/*  Formulario Pop Up   */
+.contact-page.contact-home .popup1{left: 0}
+#popup1{
+	width: 100%;
+    position: fixed;
+	top: 26%;
+    left: -20%;
+	z-index: 1001;
+	}
+.content_popup{
+	margin: auto;
+	padding: 10px;
+	width: 500px;
+	min-height: 200px;
+	border-radius: 10px;
+    border:6px solid rgba(227,128,0,.4);
+	background-color: rgba(255,255,255,.9);
+	-webkit-box-shadow: 3px 3px 4px 0px rgba(227,128,0,.6);
+    -moz-box-shadow:    3px 3px 4px 0px rgba(227,128,0,.6);
+    box-shadow:         3px 3px 4px 0px rgba(227,128,0,.6);
+    text-align: justify;
+    
+}
+.content_popup h3 {color: #215d9b;text-align: center}
+.content_popup p {color: #215d9b;}
+.close img{
+	width: 13px;
+	opacity: .7;
+	position: relative;
+	float: right;
+    margin-top: 2px
+
+}
+.close img:hover {opacity: 1}
+
+
+
+
+/*Frases primera página*/
+
+.frases{
+	width: 100%;
+	height: 250px;
+}
+
+.frase span{
+	color: #42B3E5;;
+}
+
+.frase{
+	width: 280px;float: right
+}
+.frase1{
+	position: relative;
+	float: left;
+	margin-left: 0px;
+	margin-top: -50px;
+    
+}
+.frase2{
+	position: relative;
+	float: left;
+	margin-top: -50px;
+	margin-left: 60px;
+
+}
+.frase2 img {width: 280px}
+.frase3{
+	position: relative;
+	float: left;
+	margin-top: -160px;
+	margin-left: 750px;
+    margin-bottom: 0PX
+}
+.cta {
+	width: 280px;float: right
+}
+.cta-contact{
+
+    width: 87%;
+    padding: 25px 30px;
+    background: #0085d2;
+    position: relative;
+	float: left;
+	margin: 0 20px 25px 0 }
+
+.asesor {    
+    width: 100%;
+    float: right;
+    padding: 25px;
+    padding-bottom: 0px;
+    background: rgba(255,255,255,.35);
+    position: relative;
+	float: right;
+	margin-top: -50px;
+    margin-bottom: 25px;
+    font-family: 'PT Sans', sans-serif;
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(169, 169, 169, 0.75);
+    -moz-box-shadow:    2px 2px 2px 0p
+        rgba(169, 169, 169, 0.75);
+    box-shadow:         2px 2px 2px 0px rgba(169, 169, 169, 0.75);
+    display: block;}
+
+.asesor-contact h2{
+    color:#fff;
+    font-size: 26px;
+    letter-spacing: .08em;
+    font-family: 'PT Sans';
+    font-weight: 500;
+        text-align: center;}
+.asesor h2 {    
+    font-family: 'PT Sans';
+    color: #0384CE;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: .08em;
+    margin-bottom: 10px;
+    text-align: center;
+line-height: 28px}
+
+.asesor a p {
+
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 18px 5px 0 5px;
+    padding: 0px;
+    letter-spacing: .09em;
+    background: rgba(254, 133, 3, 0.85);
+    padding: 10px;
+    color: #fff;
+    -webkit-box-shadow: 2px 2px 1px 0px rgba(50, 50, 50, 0.35);
+-moz-box-shadow:    2px 2px 1px 0px rgba(50, 50, 50, 0.35);
+box-shadow:         2px 2px 1px 0px rgba(244, 130, 10, 0.35);
+}
+.asesor-contact a p {
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 28px 75px 0 75px;
+    padding: 0px;
+    letter-spacing: .09em;
+    background: #f78f1e;
+    padding: 10px;
+    color: #fff;
+    -webkit-box-shadow: 2px 2px 1px 0px rgba(50, 50, 50, 0.35);
+-moz-box-shadow:    2px 2px 1px 0px rgba(50, 50, 50, 0.35);
+box-shadow:         2px 2px 1px 0px rgba(244, 130, 10, 0.35);
+            -webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+}
+
+.callfree {
+    color: #0384CE;
+    text-align: center;
+    margin: 0px;
+    font-size: 18px;
+    padding: 10px;
+    letter-spacing: .05em
+}
+.asesor-contact .callfree{color: #fff;margin-top: 15px;letter-spacing: .08em }
+.content_guia {
+    width: 117%;
+    float: right;
+padding: 0%;
+margin: 0 auto}
+
+
+
+.enlace p.enlatext{  
+    width:47%;
+    float:left;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 1% 15px;
+    padding: 14px 0;
+    letter-spacing: .01em;
+    background:#42B3E5;
+    color: #fff;
+    -webkit-box-shadow: 2px 2px 1px 0px rgba(50, 50, 50, 0.35);
+-moz-box-shadow:    2px 2px 1px 0px rgba(50, 50, 50, 0.35);
+box-shadow:         2px 2px 1px 0px rgba(66, 139, 169, 0.45);
+	border-radius: 8px;
+    border:1px solid rgba(66, 139, 199, 0.85);}
+
+.enlace p.enlatext:hover {background: #019cdd;
+        -moz-transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-o-transition: all .2s ease-in-out;
+		-ms-transition: all .2s ease-in-out;
+		transition: all .2s ease-in-out}
+
+
+
+
+
+.guia, .guiados {margin: 0 auto}
+.guiados p { 
+    color: #0384CE;
+    width: 97%;
+    float: right;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0% 15px;
+    padding: 8px 0;
+    letter-spacing: .09em;
+    background: rgba(255,255,255,.5);
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(169, 169, 169, 0.75);
+    -moz-box-shadow:    2px 2px 2px 0p
+        rgba(169, 169, 169, 0.75);
+    box-shadow:         2px 2px 2px 0px rgba(169, 169, 169, 0.75);}
+.guiados p:hover {background: orange;
+        -moz-transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-o-transition: all .2s ease-in-out;
+		-ms-transition: all .2s ease-in-out;
+		transition: all .2s ease-in-out}
+.guia p{  
+    width:100%;
+    float: right;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 100;
+    text-align: center;
+    margin: 0 0% 15px;
+    padding: 8px 0;
+    letter-spacing: .09em;
+    background: rgba(254, 133, 3, 0.85);
+    color: #fff;
+    -webkit-box-shadow: 2px 2px 1px 0px rgba(50, 50, 50, 0.35);
+-moz-box-shadow:    2px 2px 1px 0px rgba(50, 50, 50, 0.35);
+box-shadow:         2px 2px 1px 0px rgba(244, 130, 10, 0.35);}
+
+.guia p:hover {background: #42B3E5;
+        -moz-transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-o-transition: all .2s ease-in-out;
+		-ms-transition: all .2s ease-in-out;
+		transition: all .2s ease-in-out}
+
+
+.contact-page.contact-home{
+    width: 87%;
+    padding: 25px 30px;
+    background: #0085d2;
+    position: relative;
+	float: left;
+	margin: 0 20px 25px 0 ;
+} 
+.contact-home {
+    width: 30%;
+    padding: 20px;
+    background: rgba(255,255,255,.45);
+    position: relative;
+	float: right;
+	margin-top: -70px;
+    margin-bottom: 0PX;
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(169, 169, 169, 0.75);
+    -moz-box-shadow:    2px 2px 2px 0px rgba(169, 169, 169, 0.75);
+    box-shadow:         2px 2px 2px 0px rgba(169, 169, 169, 0.75);
+    display: block;
+}
+.contact-page.contact-home  h2{color:#fff;font-size: 26px;letter-spacing: .04em;}
+.contact-home h2{
+    color: #0384CE;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: .02em;
+    margin-bottom: 10px;
+    text-align: center
+}
+.contact-home a p {
+
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: .05em;
+        background: rgba(255,255,255,.4);
+    ;padding: 5px;color: #0384CE;
+}
+
+.contact-home.contact-page a p{
+    font-size: 35px;
+    letter-spacing: .09em;
+    padding:  5px 0 5px 0;
+color: #fff;
+background: none
+}
+
+.frase6{
+	position: relative;
+	float: left;
+	margin-top: 10px;
+	color: white;
+	width: 100%;
+	height:75px;
+}
+.frase6 h2{
+	font-family: 'PT Sans';
+	font-style: normal;
+	color:white;
+	margin-top: 0px;
+	margin-left:0px;;
+    text-align: center
+}
+
+
+.blanco{
+	color: white;
+}
+
+
+
+
+/* testimonios*/
+img.testim-image{width: 50%; float: left; border:4px solid rgba(66, 139, 199, 0.55);padding: 0px; margin: 5px 10px 5px 0}
+
+
+
+/*Paginas*/
+
+h1.page_title {text-align: center}
+
+.post p {font-size: 14px;color: #666;text-align: justify;letter-spacing: .02em}
+.post h3 {letter-spacing: .04em;margin-bottom: 7px; margin-top: 5px; }
+
+.post ul li {font-size: 14px;color: #666;text-align: justify}
+
+
+.prensa-left {margin-left: 20px;}
+.prensa-left h3{color: #111}
+.prensa-tipos {letter-spacing: .08em; }
+
+.linea{border-bottom: 1px solid #d8d8d8;margin: 20px}
+
+.prensa{
+	margin: 12px 0px 8px 0px;
+
+}
+.videotele {width: 515px;height: 290px}
+
+.container-prensa {
+  width: 500px;
+  height: 500px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 20px;
+    margin-bottom: -200px;
+}
+.div-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.div-img.hidden {
+  overflow: hidden;
+}
+.div-img .tresmujeres {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.div-img:hover .tresmujeres {
+  transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.prensa-tit {margin-top: 45px;}
+.radio{width: 67%;float: right;margin-top: 103px;margin-right: 5%}
+.radio2{width: 61%;float: right;margin-top: 75px;margin-right: 5%}
+.radio3{width:65%;float:right;margin-top:94px;margin-right:5%}
+
+a.telemadrid {text-decoration: none; text-align: right;color: #0081c6; font-size: 16px}
+.telemadrid:hover {color: #f78f1e}
+
+
+/*--------------- TESTIMONIOS -------------*/
+
+.testimonio h3 {
+    margin: 0px;
+padding-top: 22px;
+    font-weight: 600;
+    color: rgba(49,86,163,.75);
+    letter-spacing: .1em
+}
+
+.testimonio p{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 9px;
+    color: #333
+}
+.testimonio p strong{
+    color: rgba(90,93,103,1);
+    font-weight: 600
+}
+.testimonio p i strong{color:  rgba(3,139,209,1)}
+.post.testimonio {margin: 0px;padding: 0px;margin-top: -5px}
+
+#accordion-primary-health-care h3{ letter-spacing: .3em; font-weight: 600}
+
+
+
+
+
+
+/*--------------- Tarifas -------------*/
+.text-center {text-align: center;}
+.orange {color: #f78f1e}
+
+.col-6 {
+    width: 45%;
+    float: left;
+}
+
+.col-7 {width: 45%;
+    float: right}
+.tarifa h3{text-align: center; color: #0081c6;margin: 40px auto}
+.tarifa h3 span {font-size: 45px;font-weight: 500}
+.tarifa h4 { color: #0081c6; font-size: 19px;font-weight: 600}
+.junto {}
+.tit {
+    text-align: center; 
+    font-size: 22px; 
+    text-decoration: underline;
+    font-weight: 600;
+    margin: 15px
+}
+
+.right {float: right}
+.queso {margin: 15px 32% 0 32%;
+width: 36%;
+    display: block
+}
+.quesito {margin: 0px}
+.desglose {list-style-type: disc;margin-left: 40px}
+.desglose li {margin: 10px;font-size: 15px}
+
+.financia {
+    margin-top: 30px;
+    padding: 15px;
+    background: rgba(255,255,255,.35);
+    font-family: 'PT Sans', sans-serif;
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(169, 169, 169, 0.75);
+    -moz-box-shadow:    2px 2px 2px 0p rgba(169, 169, 169, 0.75);
+    box-shadow:         1px 1px 2px 1px rgba(169, 169, 169, 0.75);
+    display: block;}
+.financia .tit{text-decoration: none;font-size: 25px}
+.financia a p {
+
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 18px 25px 10px 25px;
+    padding: 0px;
+    letter-spacing: .09em;
+    background: #0081c6;
+    padding: 10px;
+    color: #fff;
+    -webkit-box-shadow: 2px 2px 1px 0px rgba(50, 50, 50, 0.35);
+-moz-box-shadow:    2px 2px 1px 0px rgba(50, 50, 50, 0.35);
+box-shadow:         2px 2px 1px 0px rgba(50, 50, 50, 0.35);
+}
+
+
+/********   ****    REsponsive  ****    *********/
+
+
+@media screen and (max-width:1300px)
+{
+/*Frases primera página*/
+    
+.frases{
+	margin-left: 40px;
+}
+.frase1{
+	margin-left:-100px
+}
+.frase2{
+	margin-left:120px;
+
+}
+.frase3{
+	position: relative;
+	float: left;
+	margin-top: -50px;
+	margin-left: 20px;	
+}
+
+.frase6{
+	width: 100%;
+	height:75px;
+    text-align: center;
+}
+
+}
+
+
+@media screen and (max-width:1175px)
+{   
+    .justificado {margin-right: 13px}
+ /* ---- formulario   ---*/
+    
+    .contact-home {
+        width: 45%;
+    margin-top: -80px;
+    margin-bottom: 60px;
+    padding: 10px 20px;}
+    .contact-home a p {background: rgba(255,255,255,.4);padding: 5px;color: #42B3E5;}
+    .contact-page.contact-home a p {background: rgba(70,178,230,.8);padding: 5px;color: #fff;margin-bottom: 10px;margin: 0px}
+    
+    .contact-home h2{text-align: center}
+    .consultas_form .right, .consultas_form .left {width: 49%;margin: 0}
+    
+    .consultas_form .right .text_input{
+	  width: 80%
+    }
+    
+    .consultas_form .left .text_input
+    {
+	width: 70%
+	
+    
+    }
+    .comment_form input[type='submit'],
+.consultas_form input[type='submit'] {
+	
+	width: 100%;;margin-top: 15px;
+    }
+
+    
+    .caja {100%}
+    
+    .caja select {
+    width : 116%;
+    }
+    .contact-page.contact-home .privacidad {padding-bottom: 0px}
+    .consultas_form .privacidad
+{  
+    padding-bottom: 8px;z-index: 100
+
+}
+    .cta {150px}
+.asesor {    
+    width: 100%;
+	margin-top: -60px;
+    margin-bottom: 22px;
+}
+
+
+.asesor a p {
+    margin: 12px 0px 0 0px;
+}
+    .guia {width:100%;float: right}
+ .guia p{margin-bottom: 62px;width: 100%;float: right}
+    
+    .slider_control{margin-bottom: -35px}
+    .home_box_container {margin-top: -30px}
+    
+    #popup1{
+        left: 0;}
+    
+	.imgMalaga{
+		background-image: url('../images/slider/centro-de-adicciones-malaga.jpg')
+	}
+	.header{
+		width: 800px;	
+	}
+	.header_right{
+		margin-top: 10px;
+	}
+	.img_logo{
+		height: 100px;
+		width: auto;
+		margin-left: -20px;
+	}
+
+	.sf-menu
+	{
+		width: 735px;
+		position: relative;    
+		margin-top: -40px; 
+	}
+
+	.contacto{
+		width: auto;
+		margin-top: 0px;
+		margin-left: 0px;
+	}
+	.titulo{
+		margin-top: -125px;
+		margin-left: 110px;
+	}
+	.serv{
+		display: block;
+	}
+	.top_hint
+	{
+		display: block;
+		position: inherit;
+		width: 150px;
+		margin-top: -143px;
+		margin-right: -35px;
+		font-size: 1em;
+	}
+    .toptel {
+        font-size: 1em;
+        margin-top: -79px;
+		margin-right: -35px;}
+    
+	.slider_content .slider_top_left{
+		margin-top: -11%;
+		margin-right: 30%;
+		font-size: 1.6em;
+	}
+	.slider_content .slider_top_right{
+		margin-top: -11%;
+		margin-right: 95%;
+		font-size: 1.6em;
+	}
+	.slide_home_abajo{
+		margin-bottom: 0px;
+	}
+
+.radio{width: 95%;margin-top: 6px;margin-left: 0%;margin-bottom: 15px}
+.radio2{width: 95%;margin-top: 6px;margin-left: 0%;margin-bottom: 5px}
+.radio3{width:95%;margin-top:6px;margin-left:0;margin-bottom:15px}
+ 
+    .container-prensa {
+  width: 330px;
+        height: 330px;
+    margin-bottom: -130px}
+    
+    
+    
+	/*Footer*/
+
+	.second_footer{
+		margin-left: 100px;
+		margin-top: 153px;
+	}
+
+	.footer_contact_info_container{
+		width: 110%;
+	}
+
+	.footer_contact_info_left{
+		width: 160px;	
+	}
+	.fist_footer_mail{
+		margin-top: 20px;
+	}
+	.long_footer{
+		width: 100%;
+	}
+
+	.consultas_form textarea
+	{
+	width: 90%;
+	}
+
+	.consultas_form .right{
+		margin-left: 0px;
+	}
+
+	/*Frases primera página*/
+	.frases{
+		margin-left: 0px;
+	}
+	.frase1{
+		margin-left:0px;width: 200px
+	}
+	.frase2{
+	position: relative;
+	float: left;
+	margin-top: -50px;
+	margin-left: 10px;
+
+}
+.frase2 img {width: 200px}
+	.frase3{
+		
+		position: relative;
+		float: left;
+		margin-top: -50px;
+		margin-left: 50px;	
+	}
+
+	.frase6{
+		font-family: inherit;
+		width: 100%;
+		height:75px;
+		margin-top: -70px;
+        display: block;
+        margin-bottom: 20px;
+	}
+    .frase6 h2{
+        font-size: 20px; 
+    text-align: center;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        z-index: 50
+
+	}
+
+    .videotele {width: 373px;height: 210px}
+}
+
+
+@media screen and (max-width:801px)
+{   
+    
+	.top_hint
+	{
+		margin-right: -40px;
+	}
+	.sf-menu{
+		font-size: 0.7em;
+		width: 600px;
+	}
+	.header{
+		width: inherit;	
+	}
+	#cssmenu {
+		display: none;
+	}
+	.consultas_form textarea
+	{
+	width: 90%;
+	}
+
+	.consultas_form .right{
+		margin-left: 0px;
+	}
+
+.videotele {width: 355px;height: 200px}
+    
+    
+    
+	/*Frases primera página*/
+	.frases{
+		margin-left: 0px;
+	}
+	.frase6{
+		width: 100%;
+		height:75px;
+		margin-top: 20px;
+        display: none
+	}
+	.slider_top{
+		display: none;
+	}
+.home_box_container {margin-top: -40px}
+
+}
+@media screen and (max-width:769px)
+{   
+    
+
+    .max_hide {display: block}
+    
+    .thanks {height: 250px;width: 100%;}
+    .thanks h3 {font-size: 22px;text-align: justify}
+    .justificado {margin-right: 0px}
+     /* ---- formulario   ---*/
+    
+    .contact-home {
+    margin:0px;
+    margin-bottom: 5px;
+    padding: 10px 6%;
+    width: 88%;
+    float: right}
+    
+    .contact-home h2{text-align: center}
+    .contact-page.contact-home a p {background: rgba(70,178,230,.8);padding: 5px;color: #fff;margin-bottom: 5px;margin-top: 15px}
+    
+    .contact-home a p {background: rgba(255,255,255,.4);padding: 5px;color: #42B3E5;font-size: 25px;margin: 0 70px}
+    
+      .consultas_form .right{
+margin-top: 5px
+    }
+    .contact-page.contact-home .right {margin-top: 0px}
+
+
+
+    .consultas_form .privacidad{font-size: 12px; margin-bottom: 0px;color: rgba(255,255,255,.8);margin-top: 5px}
+    
+
+    
+    .consultas_form label {font-size: 13px}
+    
+    .comment_form input[type='submit'],
+.consultas_form input[type='submit'] {
+	margin-top: 20px;
+
+	width: 90%;
+
+    }
+    
+    .content_popup p {font-size: 12px;}
+    .content_popup {width: 80%}
+    
+    .cta {width: 240px;margin-bottom: 0px;margin-top: 10px}    
+   .asesor {    
+    width: 41%;
+	margin-top: 10px;
+    margin-bottom: 0px;
+       padding-top: 5px;
+       float: left;
+       margin-left: -20px
+}
+
+.asesor h2 {    
+    font-family: inherit;
+    color: #0384CE;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: .02em;
+    margin: 0;
+    text-align: center;
+line-height: 28px}
+.asesor-contact h2{
+    font-size: 22px;
+ }
+    .asesor h1 {font-size: 22px;color: #0384CE;text-align: center}
+    
+.asesor a p {
+
+    font-size: 25px;
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+    padding: 10px;
+
+}
+    .asesor-contact .callfree{color: #fff}   
+.callfree {
+
+    text-align: center;
+    margin: 0px;
+    font-size: 15px;
+    padding: 10px;
+    letter-spacing: .05em
+}
+    .content_guia{width: 41%}
+    .content_guia h2{color: #fff; margin-bottom: 10px; font-weight: 600}
+.guia {float: right;width: 100%;padding: 0;margin-right: 0%}
+
+    
+    
+   .guia h3{  
+    width:100%;
+    float: right;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 0% 15px;
+    padding: 5px 0;
+    letter-spacing: .04em;
+    background: rgba(254, 133, 3, 0.95);
+    color: #fff;
+    -webkit-box-shadow: 2px 2px 1px 1px rgba(50, 50, 50, 0.7);
+-moz-box-shadow:    2px 2px 1px 1px rgba(50, 50, 50, 0.7);
+box-shadow:         2px 2px 0.5px 1px rgba(50, 50, 50, 0.7);} 
+    
+    
+        .superar {    
+        width: 50%;
+        text-align: center;
+        padding: 0;
+        margin-bottom: 10px;
+            margin-top: 20px;
+        float: right;
+            display: block
+    }
+    .superar h1{text-align: center;font-size: 22px;color: #0081c6
+}
+
+    .callfree {
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: .05em;
+        font-weight: 600;
+        color: #FFF;
+
+}
+    .content_guia.ambulatorios{margin-top: 10px}
+    .content_guia {width: 86%;margin: 0 7%;margin-top: -5px; z-index: 1}
+    .content_guia H2 {text-align: center}
+
+
+
+    .centers {margin-top: 20px;width: 98%;margin: 0 7%;margin-left: 0px}
+    .centers h2{color: #fff;margin-bottom: 10px;text-align: center;font-size: 19px}
+    .callme h3{
+     width:100%;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 0% 9px;
+    padding: 5px 0;
+    letter-spacing: .04em;
+    background: rgba(254, 133, 3, 0.95);
+    color: #fff;
+    -webkit-box-shadow: 2px 2px 1px 1px rgba(50, 50, 50, 0.6);
+-moz-box-shadow:    2px 2px 1px 1px rgba(50, 50, 50, 0.6);
+box-shadow:         2px 2px 0.5px 1px rgba(50, 50, 50, 0.6),
+inset 2px 2px 6px rgba(250,250,250,.5);
+border: 1px solid rgba(250,250,250,.5);
+border-radius: 12px 12px 12px 12px;
+-moz-border-radius: 12px 12px 12px 12px;
+-webkit-border-radius: 12px 12px 12px 12px;
+    }
+    
+    .mapa {width: 48%;float: left;margin-top: 50px}
+    .mapa img {width: 100%;margin-left: 0%;}
+    
+
+    
+	#cssmenu {
+		display: block;
+	}
+	.header{
+		width: auto;	
+	}
+	.header_left{
+		margin-left: 50px;
+	}
+	.titulo{
+		display: none;
+	}
+	.top_hint, .toptel
+	{
+		display: block;
+		font-size: 30px;
+		position: relative;
+		margin-top: -10px;
+		margin-right: 10px;
+        margin-bottom:-46px
+
+	}
+    .resp_hide{
+        display: none;
+    }
+
+   	.slider_content_box
+	{
+	    margin-top: -395px;
+	    margin-bottom: 70px;
+	    font-size: 0.6em;
+	}
+	.slider_navigation{
+		margin-bottom: -5px;
+	}
+	.second_footer{
+		margin-left: 0px;
+		margin-top: 0px;
+	}
+	.footer_contact_info_container{
+		width: 100%;	
+	}
+	.consultas_form textarea
+	{
+	width: 90%;
+	}
+
+	.consultas_form .right{
+		margin-left: 0px;
+	}
+
+	.slider_content .slider_top_left{
+		display: none
+	}
+	.slider_content .slider_top_right{
+		display: none;	
+	}
+
+	/*Frases primera página*/
+	.frases{
+		margin-left: 0px;
+	}
+	.frase1{
+		display: none;
+	}
+	.frase2{
+	position: relative;
+    display: block;
+	float: left;
+	margin-top: 20px;
+	margin-left: 0px;
+
+}
+.frase2 img {width: 200px}
+
+	.frase3{
+		display: none;
+		}
+
+	.frase6{
+		width: 100%;
+		height:75px;
+		margin-top: 20px;
+	}
+    .social_icons {margin-top: 0px;margin-bottom: 15px}
+
+}
+@media screen and (max-width:474px)
+{   
+
+        .img_logo{
+		height: 100px;
+		width: auto;
+		margin-left: -30px;
+            margin-top: -10px
+
+	}
+    
+    .min_show {display: block}
+    .fijado {
+        position: fixed; 
+        z-index: 100000;
+        bottom: 0px; 
+        background: rgb(247,143,30) ;
+        width: 100%;
+        -webkit-box-shadow: 2px 2px 0px 2px rgba(0,0,0, 0.4);
+        -moz-box-shadow:    2px 2px 0px 2px rgba(247,143,30, 0.4);
+        box-shadow:         2px 0px 2px 2px rgba(0,0,0, 0.4);
+        height: 53px
+    }
+    
+    .fijado a p {text-align: center;color: #fff; font-size: 20px;letter-spacing: .09em; font-weight: 600;line-height: 1px;
+    text-shadow: 2px 2px 2px 4px rgba(0,0,0, 0.4)}
+    .fijado a p span {font-weight: 100;font-size: 13px; letter-spacing: .01em; line-height: 40px;
+    }
+    .fijado p
+    
+    .post p {color: #444;}
+    .post h2 {font-size: 19px; text-align: center; }
+.post h3 {letter-spacing: .06em;margin-bottom: 7px; margin-top: 5px; font-size: 18px}
+    
+    .enlace p.enlatext   {width: 96%; padding: 11px 0}
+    
+    iframe.videotele {width: 100%;height: 165px}
+    
+    
+    .thanks {height: 220px;width: 100%;}
+    .thanks h3 {font-size: 18px;text-align: justify;padding: 50px 40px}
+    
+    .contact-page.contact-home{padding: 20px;width: 85%;padding-bottom: 5px}
+     #popup1{top: 20%}
+    .content_popup p {font-size: 11px;display: block;}
+    .content_popup {width: 90%}
+    .contact-home {
+        padding-bottom: 0px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        width: 87%;
+        float: right;
+    background: rgba(255,255,255,.5);}
+    
+    .contact-home h2{
+        text-align: center;
+        font-size: 20px;
+        width: 80%;
+        margin: 0 auto 10px auto;
+        letter-spacing: .18em;
+        }
+    
+    .contact-home a p {
+        font-weight: bolder;
+        background: rgba(255,255,255,.3);
+margin: 0px
+    }
+    
+    .cta-contact{width: 80%}
+    .asesor-contact a p {
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 28px 15px 0 15px;
+    padding: 0px;
+    letter-spacing: .09em;
+        -webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+}
+    
+    
+    .consultas_form {margin-bottom: 0px}
+    
+
+    
+    input[type="checkbox"] + label span{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url(../images/check_radio_sheet.png) -18px top no-repeat;
+    background-size: cover;
+    margin: -4px 4px 0 -10px;
+    vertical-align: middle;
+    cursor:pointer;
+}
+    input[type="checkbox"]+ label {padding-bottom: 8px}
+
+
+    .consultas_form .right,.consultas_form .left {float: left;width: 50%;margin-top: 10px;margin: 0}
+     .contact-page.contact-home .right .text_input, .consultas_form .right .text_input{
+	   width: 100%;
+        margin: 0px
+    }
+    .contact-page.contact-home .right {width: 49%;margin-left: 1%;margin-right: 0%;margin-top: -20px}
+    .consultas_form .right {
+	margin-top: -15px  
+    }
+
+    
+    .consultas_form .privacidad{font-size: 12px; margin-bottom: 0px;float: left;margin-top: 5px}
+
+    .consultas_form label {font-size: 13px}
+    
+    .comment_form input[type='submit'],
+    .consultas_form input[type='submit'] {
+	width: 100%;
+    height: 45px;
+    margin: 0px;
+    float: none;
+        display: block;
+        margin-bottom: 5px;
+        margin-top: 80px   
+    }
+    .contact-page.contact-home input[type='submit']{
+    width: 100%;margin-top: 70px
+}
+    .whatcall{margin-top: 17px}
+    .caja {margin-bottom: 0px; width: 100%;height: 30px}
+    
+    .caja select {
+    width : 121%;height: 30px
+    }
+
+    
+    .error.big{
+    margin-top: 2px;
+    margin-left: -40px;
+    }
+    .error{
+    margin-top: 35px;
+    margin-left: 40px;
+    }
+    
+  
+    .superar {    
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin-bottom: 0px;
+        display: block;
+        margin-top: 0px
+    }
+    .superar h1{text-align: center;font-size: 23px;color: #fff}
+
+    .callfree {
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: .05em;
+        font-weight: 600;
+        color: #FFF;
+
+}
+   
+img.testim-image{width: 97%; float: left; border:4px solid rgba(66, 139, 199, 0.45);padding: 0px; margin: 5px 0px 10px 0}
+
+    .centers {margin-top: 30px;width: 86%;margin: 0 7%;}
+    .centers h2{color: #fff;margin-bottom: 10px;text-align: center}
+    .callme h3{
+     width:90%;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 5% 7px;
+    padding: 4px 0;
+    letter-spacing: .04em;
+    background: rgba(254, 133, 3, 0.95);
+    color: #fff;
+
+    }
+    
+    .mapa {width:80%;margin-top: 10px }
+    .mapa img {width: 75%;margin-left: 25%;}
+    
+    
+    slider_control{display: none;}
+	.slider_content_box
+	{  
+	    margin-bottom: 70px;
+	    font-size: 0.6em;
+        height: 400px
+	}
+	.slider_navigation, .slider_links{
+		margin-bottom: -10px;
+        display: none
+	}
+    
+	.slider_content .slider_top_left{
+        display: none;
+		margin-top: -8%;
+		margin-right: 11%;
+		font-size: 1.3em;
+	}
+	.slider_content .slider_top_right{
+		margin-top: -8%;
+		margin-right: -2%;
+		font-size: 1.3em;
+	}
+	.header_left{
+		margin-left: 50px;
+		margin-top: 10px;
+	}
+	.top_hint, .toptel{
+        position: relative;
+		margin-top: -5px;
+		margin-right: 0px;
+        margin-bottom:20px
+	}
+	#cssmenu{
+		margin-top: -50px;
+	}
+	.footer_contact_info_container{
+		width:100%;	
+	}
+	.footer_contact_info_right{
+		margin-right: 100px;
+	}
+
+	/*Frases primera página*/
+	.frases{
+		margin-left: 0px;
+	}
+	.frase1{
+		display: none;
+	}
+	.frase2{
+	position: relative;
+    display: block;
+	float: left;
+	margin-top: 0px;
+	margin-left: 5%;
+        width: 90%
+
+}
+.frase2 img {width: 200px}
+	.frase3{
+		display: none;
+		}
+
+	.frase6{
+		width: 100%;
+		height:75px;
+		margin-top: 120px;
+	}
+    .home_box_container {margin-top: -90px}
+    .prensa-left {margin-left: 10px}
+    
+    .container-prensa {
+  width: 300px;
+  height: 300px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 20px;
+    margin-bottom: -110px;
+}
+.div-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.div-img.hidden {
+  overflow: hidden;
+}
+.div-img .tresmujeres {
+
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.div-img:hover .tresmujeres {
+      transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+    }
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+@media screen and (max-width:380px)
+{
+	#cssmenu{
+        position: absolute;
+        top:120px;
+        right: 0px;
+        z-index: 1000;
+	}
+	.top_hint, .toptel{
+        position: absolute;
+		margin: 0px;
+        margin-bottom: -80px; !important
+        padding: 0px;
+        font-size: 28px;
+        padding: 0px;
+        width: auto;
+        right: 10px;
+        top: 20px;
+
+	}
+	.consultas_form textarea
+	{
+	width: 265px;
+	}
+
+	.consultas_form .right{
+		margin-left: 0px;
+	}
+	.frase6{
+		position: relative;	
+		width: 100%;
+		height:75px;
+		margin-top: 120px;
+	}}
+

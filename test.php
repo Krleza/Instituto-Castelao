@@ -117,7 +117,7 @@
                 </ul>
 
                 <div id="resultado_0_4" class="notification_box nb_success page_margin_top">
-                <h5>Sus respuestas no sugieren indicios de problemas de adicci&oacute;n, no obstante, si a acudido a nuestra pagina en busca de apoyo o consejo debido al consumo
+                <h5>Sus respuestas no sugieren indicios de problemas de adicci&oacute;n, no obstante, si ha acudido a nuestra pagina en busca de apoyo o consejo debido al consumo
                 por su parte o de algún conocido, nuestro servicio de atenci&oacute;n telef&oacute;nica es gratuito y estaremos encantados de escuchar y 
                 solucionar las dudas que pueda albergar con respecto
                 al consumo de sustancias adictivas</h5>
@@ -144,7 +144,7 @@
                 </div>
                 <p>
                 <input type="button" id="verpuntuacion" onclick="test();" class="more medium blue icon_small_arrow margin_right_white margin_left_10" value="Ver puntuación">
-                <input type="button" onclick="window.location.href='?page=test'" class="more medium blue icon_small_arrow margin_right_white margin_left_10" value="volver">
+                <input type="button" onclick="window.location.href='test'" class="more medium blue icon_small_arrow margin_right_white margin_left_10" value="volver">
 
                 </p>
 
@@ -155,4 +155,8 @@
                 </script>
             </div>
 	</div>
+</div>
+<div class="fijado min_show animated_element animation-slideUp delay-2600">
+    <a class="" onclick="goog_report_conversion('tel:900-505-100')" href="tel:900505100" ><p>900 505 100<br><span>1ª consulta gratuita</span></p></a>
+    
 </div>

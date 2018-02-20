@@ -2,7 +2,7 @@
 	<div class="page_layout page_margin_top clearfix">
 		<div class="page_header clearfix">
 			<div class="page_header_left">
-				<h1 class="page_title">La enfermedad de La adicción</h1>
+				<h1 class="page_title">La enfermedad de la adicción</h1>
 				
 			</div>
 		</div>
@@ -14,30 +14,32 @@
 						<div class="gallery_box">
 							<ul class="image_carousel">
 								<li class="current_slide">
-                                                                    <img src="images/responsive/ayuda_drogadiccion.jpg" alt=""/>
+                                    <img src="images/responsive/ayuda-adicto.jpg" alt="Enfermedad de adicción"/>
 								</li>
 			
 							</ul>
 						</div>
-						<!--<a class="post_image" href="?page=post" title="Lorem ipsum dolor sit amat velum">
-							<img src="images/responsive/520x240/terapia_drogadiccion.jpg" alt="" />
-						</a>-->
+
 						<h2>
-                                                    Las Claves	
+                                                    Las claves	
 						</h2>
-						<p class="trat_corto">
+						<p >
                                                     En resumen, estas son las ideas que desearíamos que valorase a la hora de enfrentarse a la adicci&oacute;n:
                                                 </p>
                                                 <h4>
                                                   
-                                                        - El paciente adicto padece una enfermedad, de la cual existe una cura y es posible recuperarse.
-                                                    <br><br>
-                                                        - El tratamiento, desarrollado correctamente, es eficaz y permite la completa rehabilitaci&oacute;n del paciente.
-                                                    <br><br>
-                                                        - El paciente no es capaz de recuperarse por si mismo, es necesario un tratamiento profesional y especializado.
-                                                    <br><br>
-                                                        - La recuperaci&oacute;n es un proceso gratificante desde su inicio, que recupera al paciente tanto física como psicol&oacute;gicamente
-                                                    <br><br>
+                                                        - El paciente adicto padece una enfermedad, para la cual existe una cura y es posible recuperarse.
+                        </h4>
+                                                     <h4>
+                                                         <br>- El tratamiento, desarrollado correctamente, es eficaz y permite la completa rehabilitaci&oacute;n del paciente.
+                                                    </h4> <br>
+                        
+                                                   <h4>     - El paciente no es capaz de recuperarse por sí mismo, es necesario un tratamiento profesional y especializado.
+                        </h4><br>
+                                                   <h4>
+                                                        - La recuperaci&oacute;n es un proceso gratificante desde su inicio, que recupera al paciente tanto física como psicol&oacute;gicamente.
+                                                    </h4><br>
+                        <h4>
                                                         - Frente a una adicci&oacute;n, es urgente acudir a un centro especializado.
                                                    
                                                 </h4>
@@ -71,7 +73,7 @@
 								<div class="scrolling_list_wrapper">
 					<ul class="scrolling_list most_commented">
 						<li class="icon_small_arrow right_black">
-							<a href="?page=enfermedad" class="clearfix">
+							<a href="enfermedad" class="clearfix">
 								<span class="left">
 								La enfermedad de la adicción	
 								</span>
@@ -80,7 +82,7 @@
 							<abbr title="" class="timeago"></abbr>
 						</li>
 						<li class="icon_small_arrow right_black">
-							<a href="?page=adiccion" class="clearfix">
+							<a href="adiccion" class="clearfix">
 								<span class="left">
 									¿qué es una adicción?
 								</span>
@@ -89,7 +91,7 @@
 							<abbr title="" class="timeago"></abbr>
 						</li>
 						<li class="icon_small_arrow right_black">
-							<a href="?page=diagnostico" class="clearfix">
+							<a href="diagnostico" class="clearfix">
 								<span class="left">
 									¿Cómo se diagnostica?
 								</span>
@@ -97,7 +99,7 @@
                             <abbr title="" class="timeago"></abbr>
 						</li>
 						<li class="icon_small_arrow right_black">
-							<a href="?page=voluntad" class="clearfix">
+							<a href="voluntad" class="clearfix">
 								<span class="left">
 									Cuando la voluntad no es suficiente
 								</span>
@@ -131,7 +133,7 @@
 					<li class="clearfix">
 						<span class="social_icon form"></span>
 						<p class="value">
-							<a href="?page=contact" title="Contact form">Formulario de contacto</a>
+							<a href="contact" title="Contact form">Formulario de contacto</a>
 						</p>
 					</li>
 				</ul>
