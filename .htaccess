@@ -1,0 +1,41 @@
+
+
+
+#normas rewrite
+
+#Options +FollowSymLinks
+RewriteEngine On
+
+
+
+#Normas de redirección a URL amigables.
+
+RewriteRule ^([a-zA-Z0-9_-]+)$ ?&page=$1  [QSA]
+
+#redirecciones permanentes de la antigua pagina
+
+#Redirect 301 /test.php http://www.institutocastelao.com/?page=test
+#Redirect 301 /fases.php http://www.institutocastelao.com/?page=fases
+#Redirect 301 /tratamiento.php http://www.institutocastelao.com/?page=tratamiento
+#Redirect 301 /diagnostico.php http://www.institutocastelao.com/?page=diagnostico
+#Redirect 301 /adiccion.php http://www.institutocastelao.com/?page=enfermedad
+#Redirect 301 /abordaje.php http://www.institutocastelao.com/?page=abordaje
+#Redirect 301 /objetivos.php http://www.institutocastelao.com/?page=objetivos
+#Redirect 301 /autorizacion.php http://www.institutocastelao.com/?page=contact
+#Redirect 301 /enfermedad.php http://www.institutocastelao.com/?page=enfermedad
+#Redirect 301 /ayuda.php http://www.institutocastelao.com/?page=ayuda
+#Redirect 301 /familiares.php http://www.institutocastelao.com/?page=familiares
+#Redirect 301 /voluntad.php http://www.institutocastelao.com/?page=voluntad
+
+#Error 404:
+
+ErrorDocument 404 /404.php
+
+##########################################
+# Crea URLs sin extension.
+##########################################
+# Se ve con y sin extension
+Options +FollowSymLinks
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME}\.html -f 
+RewriteRule ^(.*)$ $1.html
